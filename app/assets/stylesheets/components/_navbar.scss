@@ -1,6 +1,7 @@
 .navbar-mt {
   justify-content: space-between;
   background: #013878;
+  color: #d2ab67;
   .navbar-brand, .dropdown-item {
     color: #d2ab67;
   }
@@ -8,8 +9,14 @@
 
 .navbar-mt .navbar-collapse {
   flex-grow: 0;
+  color: #d2ab67;
 }
 
 .navbar-mt .navbar-brand img {
   width: 40px;
+  color: #d2ab67;
+}
+
+.img {
+  display: inline-block;
 }
