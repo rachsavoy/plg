@@ -1,18 +1,13 @@
 <p align="center">
-  <img width="400" alt="image" src="https://res.cloudinary.com/nico1711/image/upload/v1613325168/mango.jpg">
-</p>
-<p align="center">
-  🛑 TODO: REPLACE WITH A PICTURE OF YOUR PROJECT LOGO AND RETURN OUR MANGO
+  <img width="400" alt="image" src="https://www.dropbox.com/s/m02stoytxkhezqp/Parlatore-1.jpg?dl=0">
 </p>
 
 <h1 align="center">
   Readme & Documentation
 </h1>
 
-🛑 TODO: PLEASE REPLACE
-
 Insert App Summary (1-2 paragraphs) and list out main facets of the application with brief descriptions
-
+Parlatore Law Group Employee Portal is an onboarding and continuous training website. Once an employee logs for the first time they will be brought through the onboarding process. All new employee training and forms will be filled out in the portion of the app. The next portion of the app allows employees to access resources, change information, submit help desk tickets, and continue trainings. 
 
 ## Table of Contents
 
@@ -35,9 +30,7 @@ Insert App Summary (1-2 paragraphs) and list out main facets of the application 
 [![Uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)]()
 [![Language](https://img.shields.io/badge/language-ruby-red)]()
 [![Framework](https://img.shields.io/badge/framework-rails-red)]()
-<p>
-  🛑 TODO: PLEASE CUSTOMIZE AS NEEDED
-</p>
+
 
 
 ## Environment Setup
