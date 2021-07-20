@@ -37,13 +37,11 @@ Parlatore Law Group Employee Portal is an onboarding and continuous training web
 This application is using:
 * Ruby 2.6.6
 * Rails 6.1.3
-<p>
-  🛑 TODO: PLEASE CUSTOMIZE AS NEEDED
-</p>
+
 
 In your terminal, run the following to clone the project onto your local machine:
 ```
-git clone git@github.com:organization/project.git
+git clone git@github.com:rachsaboy/plg.git
 ```
 <p>
   🛑 TODO: PLEASE CUSTOMIZE AS NEEDED
@@ -116,7 +114,7 @@ Some subheaders to include are:
 [👉 Schema Link 👈](www.google.com)
 
 <p align="center">
-  <img width="400" alt="image" src="https://res.cloudinary.com/nico1711/image/upload/v1613325168/mango.jpg">
+  <img width="400" alt="image" src="https://www.dropbox.com/s/ts39uzpcqeue5ul/Freedom%20Tower.jpg?raw=1">
 </p>
 <p align="center">
   🛑 TODO: REPLACE WITH A PICTURE OF YOUR ER DIAGRAM AND RETURN OUR MANGO
