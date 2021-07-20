@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="400" alt="image" src="https://www.dropbox.com/s/to9ao03dx37pom6/Logo%20on%20dark%20wall.png?dl=0">
+  <img width="400" alt="image" src="https://www.dropbox.com/s/to9ao03dx37pom6/Logo%20on%20dark%20wall.png?raw=1">
 </p>
 
 <h1 align="center">
