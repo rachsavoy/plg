@@ -153,7 +153,7 @@ If you implement any new features please validate all tests pass prior to pushin
 
 
 
-<p align="center">
+<p align="left">
   <img width="200" alt="image" src="https://www.dropbox.com/s/2b4ovp2ny96q6f1/Screen%20Shot%202021-07-22%20at%2010.22.07%20AM.png?raw=1">
 </p>
 
@@ -161,6 +161,9 @@ If you implement any new features please validate all tests pass prior to pushin
   <img width="200" alt="image" src="https://www.dropbox.com/s/3zvqwdvkojyj28t/Screen%20Shot%202021-07-22%20at%2010.22.28%20AM.png?raw=1">
 </p>
 
+<p align="right">
+  <img width="200" alt="image" src="https://www.dropbox.com/s/qx6gr5w742pm8bc/Screen%20Shot%202021-07-22%20at%2010.23.25%20AM.png?raw=1">
+</p>
 
 
 
