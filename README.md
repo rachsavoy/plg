@@ -157,6 +157,11 @@ If you implement any new features please validate all tests pass prior to pushin
   <img width="200" alt="image" src="https://www.dropbox.com/s/2b4ovp2ny96q6f1/Screen%20Shot%202021-07-22%20at%2010.22.07%20AM.png?raw=1">
 </p>
 
+<p align="center">
+  <img width="200" alt="image" src="https://www.dropbox.com/s/3zvqwdvkojyj28t/Screen%20Shot%202021-07-22%20at%2010.22.28%20AM.png?raw=1">
+</p>
+
+
 
 
 In 1-2 paragraphs please also describe the visual design philosophy such as patterns you'll be using (gradeints, glassmorphism, etc), coding practices (BEM model), and potentially any frameworks (tailwind, bootstrap, bulma, etc)
