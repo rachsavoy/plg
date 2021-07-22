@@ -112,9 +112,6 @@ Some subheaders to include are:
 <p align="center">
   <img width="400" alt="image" src="https://www.dropbox.com/s/mv54l5kvspu4i8z/Screen%20Shot%202021-07-22%20at%2010.34.21%20AM.png?raw=1">
 </p>
-<p align="center">
-  🛑 TODO: REPLACE WITH A PICTURE OF YOUR ER DIAGRAM AND RETURN OUR MANGO
-</p>
 
 ## Testing
 
@@ -167,7 +164,7 @@ If you implement any new features please validate all tests pass prior to pushin
 
 
 
-In 1-2 paragraphs please also describe the visual design philosophy such as patterns you'll be using (gradeints, glassmorphism, etc), coding practices (BEM model), and potentially any frameworks (tailwind, bootstrap, bulma, etc)
+The visual design philosophy for this project was to align the core color schemes of the company with a simple user friendly website. The framework that is being used is bootstrap. 
 
 We've generated a Kitchensink route, controller action, and view to populate with front-end components. Every time you are using a component make sure you use the ones from the kitchen sink (or add them if you are creating new ones).
 
