@@ -110,7 +110,7 @@ Some subheaders to include are:
 [👉 Schema Link 👈](www.google.com)
 
 <p align="center">
-  <img width="400" alt="image" src="https://www.dropbox.com/s/ts39uzpcqeue5ul/Freedom%20Tower.jpg?raw=1">
+  <img width="400" alt="image" src="https://www.dropbox.com/s/mv54l5kvspu4i8z/Screen%20Shot%202021-07-22%20at%2010.34.21%20AM.png?raw=1">
 </p>
 <p align="center">
   🛑 TODO: REPLACE WITH A PICTURE OF YOUR ER DIAGRAM AND RETURN OUR MANGO
@@ -132,7 +132,7 @@ open coverage/index.html
 ```
 
 <p align="center">
-  <img width="200" alt="image" src="https://res.cloudinary.com/nico1711/image/upload/v1613325168/mango.jpg">
+  <img width="200" alt="image" src="">
 </p>
 <p align="center">
   🛑 TODO: REPLACE WITH PICTURES OF YOUR TEST RUNS AND RETURN OUR MANGO
@@ -191,11 +191,10 @@ If you are joining the team and wish to contribute please follow three simple ph
 
 
 ## License
-🛑 TODO: PLEASE REPLACE AND/OR MODIFY
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-Copyright © 202X COMPANY NAME
+Copyright © 2021 PARLATORE LAW GROUP
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
