@@ -41,11 +41,9 @@ This application is using:
 
 In your terminal, run the following to clone the project onto your local machine:
 ```
-git clone git@github.com:rachsaboy/plg.git
+git clone git@github.com:rachsavoy/plgportal.git
 ```
-<p>
-  🛑 TODO: PLEASE CUSTOMIZE AS NEEDED
-</p>
+
 
 For the final setup for the packages, gems, remotes, prepping databases, and seed file, run the following:
 ```
@@ -105,9 +103,7 @@ Some subheaders to include are:
 ## Password Log
 
 [👉 Passwords Link 👈](www.google.com)
-<p>
-  🛑 TODO: PLEASE CUSTOMIZE AS NEEDED
-</p>
+
 
 ## DB Schema
 
@@ -121,9 +117,6 @@ Some subheaders to include are:
 </p>
 
 ## Testing
-<p>
-  🛑 TODO: PLEASE CUSTOMIZE AS NEEDED
-</p>
 
 [![Test Count](https://img.shields.io/badge/total%20tests-100-blue)]()
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)]()
@@ -158,9 +151,13 @@ If you implement any new features please validate all tests pass prior to pushin
 
 ## Visual Design Philosophy
 
-🛑 TODO: PLEASE REPLACE AND/OR MODIFY
 
-Please provide a visual representation of your app either through a prototype such as figma or through a series of images.
+
+<p align="center">
+  <img width="200" alt="image" src="https://www.dropbox.com/s/2b4ovp2ny96q6f1/Screen%20Shot%202021-07-22%20at%2010.22.07%20AM.png?raw=1">
+</p>
+
+
 
 In 1-2 paragraphs please also describe the visual design philosophy such as patterns you'll be using (gradeints, glassmorphism, etc), coding practices (BEM model), and potentially any frameworks (tailwind, bootstrap, bulma, etc)
 
