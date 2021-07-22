@@ -41,11 +41,9 @@ This application is using:
 
 In your terminal, run the following to clone the project onto your local machine:
 ```
-git clone git@github.com:rachsaboy/plg.git
+git clone git@github.com:rachsavoy/plgportal.git
 ```
-<p>
-  🛑 TODO: PLEASE CUSTOMIZE AS NEEDED
-</p>
+
 
 For the final setup for the packages, gems, remotes, prepping databases, and seed file, run the following:
 ```
@@ -105,25 +103,17 @@ Some subheaders to include are:
 ## Password Log
 
 [👉 Passwords Link 👈](www.google.com)
-<p>
-  🛑 TODO: PLEASE CUSTOMIZE AS NEEDED
-</p>
+
 
 ## DB Schema
 
 [👉 Schema Link 👈](www.google.com)
 
 <p align="center">
-  <img width="400" alt="image" src="https://www.dropbox.com/s/ts39uzpcqeue5ul/Freedom%20Tower.jpg?raw=1">
-</p>
-<p align="center">
-  🛑 TODO: REPLACE WITH A PICTURE OF YOUR ER DIAGRAM AND RETURN OUR MANGO
+  <img width="400" alt="image" src="https://www.dropbox.com/s/mv54l5kvspu4i8z/Screen%20Shot%202021-07-22%20at%2010.34.21%20AM.png?raw=1">
 </p>
 
 ## Testing
-<p>
-  🛑 TODO: PLEASE CUSTOMIZE AS NEEDED
-</p>
 
 [![Test Count](https://img.shields.io/badge/total%20tests-100-blue)]()
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)]()
@@ -139,7 +129,7 @@ open coverage/index.html
 ```
 
 <p align="center">
-  <img width="200" alt="image" src="https://res.cloudinary.com/nico1711/image/upload/v1613325168/mango.jpg">
+  <img width="200" alt="image" src="">
 </p>
 <p align="center">
   🛑 TODO: REPLACE WITH PICTURES OF YOUR TEST RUNS AND RETURN OUR MANGO
@@ -158,11 +148,23 @@ If you implement any new features please validate all tests pass prior to pushin
 
 ## Visual Design Philosophy
 
-🛑 TODO: PLEASE REPLACE AND/OR MODIFY
 
-Please provide a visual representation of your app either through a prototype such as figma or through a series of images.
 
-In 1-2 paragraphs please also describe the visual design philosophy such as patterns you'll be using (gradeints, glassmorphism, etc), coding practices (BEM model), and potentially any frameworks (tailwind, bootstrap, bulma, etc)
+<p align="left">
+  <img width="200" alt="image" src="https://www.dropbox.com/s/2b4ovp2ny96q6f1/Screen%20Shot%202021-07-22%20at%2010.22.07%20AM.png?raw=1">
+</p>
+
+<p align="center">
+  <img width="200" alt="image" src="https://www.dropbox.com/s/3zvqwdvkojyj28t/Screen%20Shot%202021-07-22%20at%2010.22.28%20AM.png?raw=1">
+</p>
+
+<p align="right">
+  <img width="200" alt="image" src="https://www.dropbox.com/s/qx6gr5w742pm8bc/Screen%20Shot%202021-07-22%20at%2010.23.25%20AM.png?raw=1">
+</p>
+
+
+
+The visual design philosophy for this project was to align the core color schemes of the company with a simple user friendly website. The framework that is being used is bootstrap. 
 
 We've generated a Kitchensink route, controller action, and view to populate with front-end components. Every time you are using a component make sure you use the ones from the kitchen sink (or add them if you are creating new ones).
 
@@ -186,11 +188,10 @@ If you are joining the team and wish to contribute please follow three simple ph
 
 
 ## License
-🛑 TODO: PLEASE REPLACE AND/OR MODIFY
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-Copyright © 202X COMPANY NAME
+Copyright © 2021 PARLATORE LAW GROUP
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
