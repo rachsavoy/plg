@@ -70,7 +70,7 @@ The first primary function is to onboard new lawyers and support staff allowing 
 Admin, Lawyers, and support staff are able to update their own information. Admin is able to update/change all information. No PII on this website. All information is accessible from main plg website (www.parlatorelawgroup.com)
 
 <p align="center">
-  <img width="400" alt="image" src="https://www.dropbox.com/s/v8p4jfbeijh9195/Screen%20Shot%202021-07-27%20at%2011.59.34%20AM.png?raw=1">
+  <img width="400" alt="image" src="https://www.dropbox.com/s/j07wyqif2376vpx/Screen%20Shot%202021-07-27%20at%2012.06.49%20PM.png?raw=1">
 </p>
 
 
