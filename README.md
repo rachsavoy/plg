@@ -112,9 +112,6 @@ open coverage/index.html
 ```
 
 <p align="center">
-  <img width="200" alt="image" src="">
-</p>
-<p align="center">
   🛑 TODO: REPLACE WITH PICTURES OF YOUR TEST RUNS AND RETURN OUR MANGO
 </p>
 
