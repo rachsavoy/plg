@@ -78,6 +78,10 @@ Admin, Lawyers, and support staff are able to update their own information. Admi
 
 Lawyers are able to access resources for marketing purposes on social media and in their local community. 
 
+<p align="center">
+  <img width="400" alt="image" src="https://www.dropbox.com/s/20wc5lgdtu1b6f1/Screen%20Shot%202021-07-27%20at%2012.15.41%20PM.png?raw=1">
+</p>
+
 
 ## Password Log
 
