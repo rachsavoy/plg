@@ -60,41 +60,23 @@ Note: Ask your Lead Dev for the required keys or single secret key
 The first primary function is to onboard new lawyers and support staff allowing an easy transition into the company. The new employee will have a checklist to complete with forms and trainiing videos to watch. Also, there is a ticketing system that allows the new employee to send requests for help or they can use the messaging system within the app to speak with the administrator. 
 
 <p align="center">
-  <img width="400" alt="image" src="https://www.dropbox.com/s/v8p4jfbeijh9195/Screen%20Shot%202021-07-27%20at%2011.59.34%20AM.png?arw=1">
+  <img width="400" alt="image" src="https://www.dropbox.com/s/v8p4jfbeijh9195/Screen%20Shot%202021-07-27%20at%2011.59.34%20AM.png?raw=1">
 </p>
 
 
 
+## Primary Function Two-Update/change information
+
+Admin, Lawyers, and support staff are able to update their own information. Admin is able to update/change all information. No PII on this website. All information is accessible from main plg website (www.parlatorelawgroup.com)
+
+<p align="center">
+  <img width="400" alt="image" src="https://www.dropbox.com/s/v8p4jfbeijh9195/Screen%20Shot%202021-07-27%20at%2011.59.34%20AM.png?raw=1">
+</p>
 
 
-## Primary Function Two
+## Primary Function Three- Access Resources
 
-Insert some text to explain this facet or function of the app, make sure to include plenty of photos
-
-Some subheaders to include are:
-
-#### Users for this facet are - your target consumer
-
-#### This facet is where users can - list all actions / user stories
-
-#### Additional features included are - additional services or tools that support the prior
-
-#### Development notes - list out design decisions and funny things that stick outside of normal design
-
-
-## Primary Function Three
-
-Insert some text to explain this facet or function of the app, make sure to include plenty of photos
-
-Some subheaders to include are:
-
-#### Users for this facet are - your target consumer
-
-#### This facet is where users can - list all actions / user stories
-
-#### Additional features included are - additional services or tools that support the prior
-
-#### Development notes - list out design decisions and funny things that stick outside of normal design
+Lawyers are able to access resources for marketing purposes on social media and in their local community. 
 
 
 ## Password Log
