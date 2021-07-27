@@ -12,9 +12,9 @@ Parlatore Law Group Employee Portal is an onboarding and continuous training web
 
 0. [Build Status](#build-status)
 1. [Environment Setup](#environment-setup)
-2. [Primary Function One](#primary-function-one)
-3. [Primary Function Two](#primary-function-two)
-4. [Primary Function Three](#primary-function-three)
+2. [Primary Function One- Onboarding](#primary-function-one)
+3. [Primary Function Two- update/change information](#primary-function-two)
+4. [Primary Function Three-access resources](#primary-function-three)
 5. [Password Log](#password-log)
 6. [DB Schema](#db-schema)
 7. [Testing](#testing)
@@ -55,19 +55,16 @@ bin/setup
 Note: Ask your Lead Dev for the required keys or single secret key
 
 
-## Primary Function One
+## Primary Function One-Onboarding
 
-Insert some text to explain this facet or function of the app, make sure to include plenty of photos
+The first primary function is to onboard new lawyers and support staff allowing an easy transition into the company. The new employee will have a checklist to complete with forms and trainiing videos to watch. Also, there is a ticketing system that allows the new employee to send requests for help or they can use the messaging system within the app to speak with the administrator. 
 
-Some subheaders to include are:
+<p align="center">
+  <img width="400" alt="image" src="https://www.dropbox.com/s/qx6gr5w742pm8bc/Screen%20Shot%202021-07-22%20at%2010.23.25%20AM.png?raw=1">
+</p>
 
-#### Users for this facet are - your target consumer
 
-#### This facet is where users can - list all actions / user stories
 
-#### Additional features included are - additional services or tools that support the prior
-
-#### Development notes - list out design decisions and funny things that stick outside of normal design
 
 
 ## Primary Function Two
