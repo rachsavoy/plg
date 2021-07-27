@@ -111,10 +111,6 @@ To view the coverage report run:
 open coverage/index.html
 ```
 
-<p align="center">
-  🛑 TODO: REPLACE WITH PICTURES OF YOUR TEST RUNS AND RETURN OUR MANGO
-</p>
-
 Testing philosophy is based off off the Classic Approach or Chicago School a.k.a Inside Out TDD.
 
 The levels covered range from unit/models, requests, and features.  It also includes additional coverage along jobs, mailers, presenters, and services.
@@ -129,18 +125,20 @@ If you implement any new features please validate all tests pass prior to pushin
 ## Visual Design Philosophy
 
 
+<div class="row">
+  <div class="column">
+    <img src="https://www.dropbox.com/s/2b4ovp2ny96q6f1/Screen%20Shot%202021-07-22%20at%2010.22.07%20AM.png?raw=1" alt="image" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://www.dropbox.com/s/3zvqwdvkojyj28t/Screen%20Shot%202021-07-22%20at%2010.22.28%20AM.png?raw=1" alt="image" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://www.dropbox.com/s/qx6gr5w742pm8bc/Screen%20Shot%202021-07-22%20at%2010.23.25%20AM.png?raw=1" alt="image" style="width:100%">
+  </div>
+</div>
 
-<p align="left">
-  <img width="33.33%" float="left" alt="image" src="https://www.dropbox.com/s/2b4ovp2ny96q6f1/Screen%20Shot%202021-07-22%20at%2010.22.07%20AM.png?raw=1">
-</p>
 
-<p align="center">
-  <img width="33.33%" float="left" alt="image" src="https://www.dropbox.com/s/3zvqwdvkojyj28t/Screen%20Shot%202021-07-22%20at%2010.22.28%20AM.png?raw=1">
-</p>
 
-<p align="right">
-  <img width="33.33%" float="left" alt="image" src="https://www.dropbox.com/s/qx6gr5w742pm8bc/Screen%20Shot%202021-07-22%20at%2010.23.25%20AM.png?raw=1">
-</p>
 
 
 
