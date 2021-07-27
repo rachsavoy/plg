@@ -12,9 +12,9 @@ Parlatore Law Group Employee Portal is an onboarding and continuous training web
 
 0. [Build Status](#build-status)
 1. [Environment Setup](#environment-setup)
-2. [Primary Function One](#primary-function-one)
-3. [Primary Function Two](#primary-function-two)
-4. [Primary Function Three](#primary-function-three)
+2. [Primary Function One- Onboarding](#primary-function-one)
+3. [Primary Function Two- update/change information](#primary-function-two)
+4. [Primary Function Three-access resources](#primary-function-three)
 5. [Password Log](#password-log)
 6. [DB Schema](#db-schema)
 7. [Testing](#testing)
@@ -55,49 +55,32 @@ bin/setup
 Note: Ask your Lead Dev for the required keys or single secret key
 
 
-## Primary Function One
+## Primary Function One-Onboarding
 
-Insert some text to explain this facet or function of the app, make sure to include plenty of photos
+The first primary function is to onboard new lawyers and support staff allowing an easy transition into the company. The new employee will have a checklist to complete with forms and trainiing videos to watch. Also, there is a ticketing system that allows the new employee to send requests for help or they can use the messaging system within the app to speak with the administrator. 
 
-Some subheaders to include are:
-
-#### Users for this facet are - your target consumer
-
-#### This facet is where users can - list all actions / user stories
-
-#### Additional features included are - additional services or tools that support the prior
-
-#### Development notes - list out design decisions and funny things that stick outside of normal design
+<p align="center">
+  <img width="400" alt="image" src="https://www.dropbox.com/s/v8p4jfbeijh9195/Screen%20Shot%202021-07-27%20at%2011.59.34%20AM.png?raw=1">
+</p>
 
 
-## Primary Function Two
 
-Insert some text to explain this facet or function of the app, make sure to include plenty of photos
+## Primary Function Two-Update/change information
 
-Some subheaders to include are:
+Admin, Lawyers, and support staff are able to update their own information. Admin is able to update/change all information. No PII on this website. All information is accessible from main plg website (www.parlatorelawgroup.com)
 
-#### Users for this facet are - your target consumer
-
-#### This facet is where users can - list all actions / user stories
-
-#### Additional features included are - additional services or tools that support the prior
-
-#### Development notes - list out design decisions and funny things that stick outside of normal design
+<p align="center">
+  <img width="400" alt="image" src="https://www.dropbox.com/s/j07wyqif2376vpx/Screen%20Shot%202021-07-27%20at%2012.06.49%20PM.png?raw=1">
+</p>
 
 
-## Primary Function Three
+## Primary Function Three- Access Resources
 
-Insert some text to explain this facet or function of the app, make sure to include plenty of photos
+Lawyers are able to access resources for marketing purposes on social media and in their local community. 
 
-Some subheaders to include are:
-
-#### Users for this facet are - your target consumer
-
-#### This facet is where users can - list all actions / user stories
-
-#### Additional features included are - additional services or tools that support the prior
-
-#### Development notes - list out design decisions and funny things that stick outside of normal design
+<p align="center">
+  <img width="400" alt="image" src="https://www.dropbox.com/s/20wc5lgdtu1b6f1/Screen%20Shot%202021-07-27%20at%2012.15.41%20PM.png?raw=1">
+</p>
 
 
 ## Password Log
@@ -128,13 +111,6 @@ To view the coverage report run:
 open coverage/index.html
 ```
 
-<p align="center">
-  <img width="200" alt="image" src="">
-</p>
-<p align="center">
-  🛑 TODO: REPLACE WITH PICTURES OF YOUR TEST RUNS AND RETURN OUR MANGO
-</p>
-
 Testing philosophy is based off off the Classic Approach or Chicago School a.k.a Inside Out TDD.
 
 The levels covered range from unit/models, requests, and features.  It also includes additional coverage along jobs, mailers, presenters, and services.
@@ -149,19 +125,17 @@ If you implement any new features please validate all tests pass prior to pushin
 ## Visual Design Philosophy
 
 
-
 <p align="left">
-  <img width="200" alt="image" src="https://www.dropbox.com/s/2b4ovp2ny96q6f1/Screen%20Shot%202021-07-22%20at%2010.22.07%20AM.png?raw=1">
+  <img width="33.33%" float="left" alt="image" src="https://www.dropbox.com/s/2b4ovp2ny96q6f1/Screen%20Shot%202021-07-22%20at%2010.22.07%20AM.png?raw=1">
 </p>
 
 <p align="center">
-  <img width="200" alt="image" src="https://www.dropbox.com/s/3zvqwdvkojyj28t/Screen%20Shot%202021-07-22%20at%2010.22.28%20AM.png?raw=1">
+  <img width="33.33%" float="left" alt="image" src="https://www.dropbox.com/s/3zvqwdvkojyj28t/Screen%20Shot%202021-07-22%20at%2010.22.28%20AM.png?raw=1">
 </p>
 
 <p align="right">
-  <img width="200" alt="image" src="https://www.dropbox.com/s/qx6gr5w742pm8bc/Screen%20Shot%202021-07-22%20at%2010.23.25%20AM.png?raw=1">
+  <img width="33.33%" float="left" alt="image" src="https://www.dropbox.com/s/qx6gr5w742pm8bc/Screen%20Shot%202021-07-22%20at%2010.23.25%20AM.png?raw=1">
 </p>
-
 
 
 The visual design philosophy for this project was to align the core color schemes of the company with a simple user friendly website. The framework that is being used is bootstrap. 
