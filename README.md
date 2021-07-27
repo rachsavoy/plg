@@ -60,7 +60,7 @@ Note: Ask your Lead Dev for the required keys or single secret key
 The first primary function is to onboard new lawyers and support staff allowing an easy transition into the company. The new employee will have a checklist to complete with forms and trainiing videos to watch. Also, there is a ticketing system that allows the new employee to send requests for help or they can use the messaging system within the app to speak with the administrator. 
 
 <p align="center">
-  <img width="400" alt="image" src="https://www.dropbox.com/s/qx6gr5w742pm8bc/Screen%20Shot%202021-07-22%20at%2010.23.25%20AM.png?raw=1">
+  <img width="400" alt="image" src="https://www.dropbox.com/s/v8p4jfbeijh9195/Screen%20Shot%202021-07-27%20at%2011.59.34%20AM.png?arw=1">
 </p>
 
 
