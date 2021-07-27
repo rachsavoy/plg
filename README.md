@@ -124,6 +124,20 @@ If you implement any new features please validate all tests pass prior to pushin
 
 ## Visual Design Philosophy
 
+<style>
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
 
 <div class="row">
   <div class="column">
