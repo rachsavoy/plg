@@ -6,7 +6,7 @@
   Readme & Documentation
 </h1>
 
-Parlatore Law Group Employee Portal is an onboarding and continuous training website. Once an employee logs for the first time they will be brought through the onboarding process. All new employee training and forms will be filled out in the portion of the app. The next portion of the app allows employees to access resources, change information, submit help desk tickets, and continue trainings. 
+Parlatore Law Group Employee Portal is an onboarding, accessing resources, and continuous training website. Once an employee logs for the first time they will be brought through the onboarding process. All new employee training and forms will be filled out in this portion of the website. The next portion of the website allows employees to access resources, change information, submit help desk tickets, and continue trainings. 
 
 ## Table of Contents
 
@@ -57,7 +57,7 @@ Note: Ask your Lead Dev for the required keys or single secret key
 
 ## Primary Function One-Onboarding
 
-The first primary function is to onboard new lawyers and support staff allowing an easy transition into the company. The new employee will have a checklist to complete with forms and trainiing videos to watch. Also, there is a ticketing system that allows the new employee to send requests for help or they can use the messaging system within the app to speak with the administrator. 
+The primary function is to onboard new lawyers and support staff allowing an easy transition into the company. The new employee will have a checklist to complete with forms and trainiing videos to watch. Also, there is a ticketing system that allows the new employee to send requests for help or they can use the messaging system within the website to speak with the administrator. 
 
 <p align="center">
   <img width="400" alt="image" src="https://www.dropbox.com/s/v8p4jfbeijh9195/Screen%20Shot%202021-07-27%20at%2011.59.34%20AM.png?raw=1">
@@ -67,7 +67,7 @@ The first primary function is to onboard new lawyers and support staff allowing 
 
 ## Primary Function Two-Update/change information
 
-Admin, Lawyers, and support staff are able to update their own information. Admin is able to update/change all information. No PII on this website. All information is accessible from main plg website (www.parlatorelawgroup.com)
+Lawyers and support staff are able to update their own information. Admin is able to update/change all information. No PII is on this website. All information is accessible from main plg website (www.parlatorelawgroup.com)
 
 <p align="center">
   <img width="400" alt="image" src="https://www.dropbox.com/s/j07wyqif2376vpx/Screen%20Shot%202021-07-27%20at%2012.06.49%20PM.png?raw=1">
@@ -76,7 +76,7 @@ Admin, Lawyers, and support staff are able to update their own information. Admi
 
 ## Primary Function Three- Access Resources
 
-Lawyers are able to access resources for marketing purposes on social media and in their local community. 
+Lawyers are able to access resources for marketing purposes for their social media and in their local community. 
 
 <p align="center">
   <img width="400" alt="image" src="https://www.dropbox.com/s/20wc5lgdtu1b6f1/Screen%20Shot%202021-07-27%20at%2012.15.41%20PM.png?raw=1">
