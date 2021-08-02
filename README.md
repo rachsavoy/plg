@@ -6,7 +6,7 @@
   Readme & Documentation
 </h1>
 
-Parlatore Law Group Employee Portal is an onboarding, accessing resources, and continuous training website. Once an employee logs for the first time they will be brought through the onboarding process. All new employee training and forms will be filled out in this portion of the website. The next portion of the website allows employees to access resources, change information, submit help desk tickets, and continue trainings. 
+Parlatore Law Group Employee Portal is an onboarding, accessing resources, and continuous training website. Once an employee logs in for the first time they will be brought through the onboarding process. All new employee training and forms will be filled out in this portion of the website. The next portion of the website allows employees to access resources, change information, submit help desk tickets, and continue trainings. 
 
 ## Table of Contents
 
