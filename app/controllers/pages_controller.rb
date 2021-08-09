@@ -3,7 +3,13 @@ class PagesController < ApplicationController
 
   def home; end
 
-  def info; end
+  def info
+    render
+  end
+
+  def faq
+    render
+  end
 
   def kitchensink; end
 end
