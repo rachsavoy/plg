@@ -11,5 +11,9 @@ class PagesController < ApplicationController
     render
   end
 
+  def who
+    render
+  end
+
   def kitchensink; end
 end
