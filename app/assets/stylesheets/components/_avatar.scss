@@ -1,10 +1,15 @@
 .avatar {
   width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.avatar-large {
+  width: 56px;
   border-radius: 50%;
 }
 
-.avatar-large {
-  width: 56px;
+.avatar-xlarge {
+  width: 80px;
   border-radius: 50%;
 }
 
@@ -14,10 +19,22 @@
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
   border: white 1px solid;
 }
-
 .avatar-square {
   width: 40px;
   border-radius: 0px;
-  box-shadow: 0 1px 2px $mango-black;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
   border: white 1px solid;
+}
+
+.avatar-xlarge-square {
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
+.avatar-small {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
