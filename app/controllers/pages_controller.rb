@@ -15,9 +15,5 @@ class PagesController < ApplicationController
     #render
   end
 
-  def documents
-    #render
-  end
-
   def kitchensink; end
 end
