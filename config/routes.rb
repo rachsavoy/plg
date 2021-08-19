@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'practice_areas/index'
+  get 'practice_areas/show'
+  get 'practice_areas/view'
+  get 'practice_areas/edit'
+  get 'practice_areas/create'
+  get 'practice_areas/destroy'
   get 'support_tasks/index'
   get 'support_tasks/show'
   get 'support_tasks/edit'

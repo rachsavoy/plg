@@ -1,0 +1,19 @@
+class PracticeAreasController < ApplicationController
+  def index
+  end
+
+  def show
+  end
+
+  def view
+  end
+
+  def edit
+  end
+
+  def create
+  end
+
+  def destroy
+  end
+end
