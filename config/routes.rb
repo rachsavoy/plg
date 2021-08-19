@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'support_tasks/index'
+  get 'support_tasks/show'
+  get 'support_tasks/edit'
+  get 'support_tasks/create'
+  get 'support_tasks/destroy'
+  get 'support_tasks/view'
   get 'licenses/index'
   get 'licenses/show'
   get 'licenses/edit'
