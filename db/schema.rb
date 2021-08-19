@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_19_052506) do
+ActiveRecord::Schema.define(version: 2021_08_19_052958) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -53,6 +53,15 @@ ActiveRecord::Schema.define(version: 2021_08_19_052506) do
     t.index ["user_id"], name: "index_licenses_on_user_id"
   end
 
+  create_table "practice_areas", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "practice_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["practice_id"], name: "index_practice_areas_on_practice_id"
+    t.index ["user_id"], name: "index_practice_areas_on_user_id"
+  end
+
   create_table "practices", force: :cascade do |t|
     t.string "title"
     t.datetime "created_at", precision: 6, null: false
@@ -93,5 +102,7 @@ ActiveRecord::Schema.define(version: 2021_08_19_052506) do
 
   add_foreign_key "lawyer_tasks", "users"
   add_foreign_key "licenses", "users"
+  add_foreign_key "practice_areas", "practices"
+  add_foreign_key "practice_areas", "users"
   add_foreign_key "support_tasks", "users"
 end
