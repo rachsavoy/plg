@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'licenses/index'
+  get 'licenses/show'
+  get 'licenses/edit'
+  get 'licenses/create'
+  get 'licenses/destroy'
   # get 'lawyer_tasks/index'
   # get 'lawyer_tasks/show'
   # get 'lawyer_tasks/edit'
