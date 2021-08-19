@@ -8,12 +8,12 @@ class CreateLawyerTasks < ActiveRecord::Migration[6.1]
       t.boolean :law_threesixty
       t.boolean :vpn
       t.boolean :dropbox
-      t.boolean :lexixnexix
+      t.boolean :lexisnexis
       t.boolean :markify
       t.boolean :profile_info_form
       t.boolean :malpractice_insurance_form
       t.boolean :benefits
-      t.boolean :tax-form
+      t.boolean :tax_form
       t.boolean :nda_form
       t.boolean :ach_form
       t.boolean :social_media

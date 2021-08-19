@@ -7,12 +7,12 @@ FactoryBot.define do
     law_threesixty { false }
     vpn { false }
     dropbox { false }
-    lexixnexix { false }
+    lexisnexis { false }
     markify { false }
     profile_info_form { false }
     malpractice_insurance_form { false }
     benefits { false }
-    tax-form { false }
+    tax_form { false }
     nda_form { false }
     ach_form { false }
     social_media { false }
