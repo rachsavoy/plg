@@ -4,19 +4,19 @@ class PagesController < ApplicationController
   def home; end
 
   def info
-    render
+    #render
   end
 
   def faq
-    render
+    #render
   end
 
   def who
-    render
+    #render
   end
 
   def documents
-    render
+    #render
   end
 
   def kitchensink; end
