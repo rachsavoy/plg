@@ -1,10 +1,10 @@
-.faq {
+.container {
   background-image: url(https://unsplash.com/photos/7e2pe9wjL9M);
   background-position: top;
   color: #d2ab67;
 }
 
-.faq-card {
+.card {
   border-color: #D2AB67;
   border-width: 3px;
   border-radius: 10px;
@@ -26,4 +26,8 @@ h1 {
   font-size: 56px;
   line-height: 67px;
   text-align: center;
+}
+
+.row {
+  justify-content: space-around;
 }
