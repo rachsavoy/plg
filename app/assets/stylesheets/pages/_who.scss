@@ -16,3 +16,9 @@ h1 {
   line-height: 67px;
   text-align: center;
 }
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}

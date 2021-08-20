@@ -1,8 +1,18 @@
 // Specific CSS for your home-page
+
 .background {
   background-image: url(https://unsplash.com/photos/Nyvq2juw4_o);
   background-repeat: no-repeat;
   background-size: auto;
+}
+
+h1 {
+  color: #013878;
+  font-family: lato;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 67px;
+  text-align: center
 }
 
 .img-fluid {
