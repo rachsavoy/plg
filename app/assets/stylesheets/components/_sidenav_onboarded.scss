@@ -4,6 +4,10 @@
 	margin-right: 10px;
 	text-align: center;
 	color: #d2ab67;
+	overflow-x: hidden; /* Disable horizontal scroll */
+	position: fixed; /* Stay in place */
+  	z-index: 1; /* Stay on top */
+  	height: 100%;
 }
 
 .line {
@@ -16,6 +20,11 @@
 
 i {
 	margin-right: 10px;
+	color: #d2ab67;
+}
+
+a {
+	color: #d2ab67;
 }
 
 .navbar-brand {
