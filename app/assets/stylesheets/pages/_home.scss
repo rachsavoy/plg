@@ -1,6 +1,10 @@
 // Specific CSS for your home-page
 
-body {
+body, html {
+  height: 100%;
+}
+
+.background {
   background: url(https://source.unsplash.com/Nyvq2juw4_o/1600x1500);
   background-repeat: no-repeat;
   background-size: cover;
