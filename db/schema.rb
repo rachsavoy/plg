@@ -10,10 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_08_19_052958) do
+ActiveRecord::Schema.define(version: 2021_08_25_020747) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "headshots", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.string "photo"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_headshots_on_user_id"
+  end
 
   create_table "lawyer_tasks", force: :cascade do |t|
     t.bigint "user_id", null: false
@@ -68,6 +76,14 @@ ActiveRecord::Schema.define(version: 2021_08_19_052958) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "social_media", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.string "file"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_social_media_on_user_id"
+  end
+
   create_table "support_tasks", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.boolean "install_office"
@@ -100,9 +116,11 @@ ActiveRecord::Schema.define(version: 2021_08_19_052958) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "headshots", "users"
   add_foreign_key "lawyer_tasks", "users"
   add_foreign_key "licenses", "users"
   add_foreign_key "practice_areas", "practices"
   add_foreign_key "practice_areas", "users"
+  add_foreign_key "social_media", "users"
   add_foreign_key "support_tasks", "users"
 end
