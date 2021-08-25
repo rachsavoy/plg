@@ -23,9 +23,25 @@ h1 {
 .card {
   color: #013878;
   background-color: #d2ab67;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  position: absolute;
+  bottom: 200px
 }
 
 .btn-primary {
   background-color: #013878;
   color: #d2ab67;
+}
+
+.home-card {
+  float: left;
+  background-color: #013878;
+  width: 337px;
+  height: 176px;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
