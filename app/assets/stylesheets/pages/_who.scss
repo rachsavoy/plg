@@ -1,5 +1,8 @@
 .who-container {
   background-image: linear-gradient(#d2ab67, white);
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%;
 }
 
 .who-card {
@@ -12,8 +15,8 @@
   margin-bottom: 20px;
   margin-right: 15px;
   color: #013878;
-  float: left;
-  width: 500px;
+  float: right;
+  width: 450px;
   padding: 0 10px;
   text-align: center;
   box-sizing: border-box;
