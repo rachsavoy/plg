@@ -2,6 +2,7 @@
   background-image: url("https://source.unsplash.com/7e2pe9wjL9M/1329x353");
   background-repeat: no-repeat; 
   background-position: cover;
+  padding: 80px;
 }
 
 .faq-card {
@@ -17,6 +18,7 @@
   line-height: 100%;
   vertical-align: top;
   font-style: bold;
+  margin-top: 60px;
 }
 
 .title h1 {
@@ -25,9 +27,9 @@
   font-weight: bold;
   font-size: 56px;
   line-height: 67px;
-  text-align: center;
+  text-align: left;
 }
 
-.row {
+.faq-row {
   justify-content: space-around;
 }
