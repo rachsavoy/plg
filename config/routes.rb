@@ -1,27 +1,26 @@
 Rails.application.routes.draw do
-  get 'practice_areas/index'
-  get 'practice_areas/show'
-  get 'practice_areas/view'
-  get 'practice_areas/edit'
-  get 'practice_areas/create'
-  get 'practice_areas/destroy'
-  get 'support_tasks/index'
-  get 'support_tasks/show'
-  get 'support_tasks/edit'
-  get 'support_tasks/create'
-  get 'support_tasks/destroy'
-  get 'support_tasks/view'
-  get 'licenses/index'
-  get 'licenses/show'
-  get 'licenses/edit'
-  get 'licenses/create'
-  get 'licenses/destroy'
-  # get 'lawyer_tasks/index'
-  # get 'lawyer_tasks/show'
-  # get 'lawyer_tasks/edit'
-  # get 'lawyer_tasks/view'
-  # get 'lawyer_tasks/create'
-  # get 'lawyer_tasks/destroy'
+  resource :dashboard, only: :show
+
+  namespace :onboarding do 
+    resource :dashboard, only: :show 
+  end
+
+  resources :support_tasks, only: [:index, :edit, :update, :create, :new, :destroy]
+
+  resources :lawyer_tasks, only: [:index, :edit, :update, :create, :new, :destroy]
+
+  resource :profile, only: :show
+
+  resource :blogs, only: [:index, :show, :new, :create]
+
+  resources :headshots, only: [:index, :show, :new, :create, :destroy]
+
+  resources :practice_areas, only: [:index, :edit, :update, :new, :create, :destroy]
+
+  resources :licences, only: [:index, :edit, :update, :new, :create, :destroy]
+
+  resources :socials, only: [:index, :show, :view, :new, :create, :edit, :update, :destroy]
+
   devise_for :users
   root to: 'pages#home'
   get '/kitchensink', to: 'pages#kitchensink' if Rails.env.development?

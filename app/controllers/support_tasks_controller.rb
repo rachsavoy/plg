@@ -2,18 +2,18 @@ class SupportTasksController < ApplicationController
   def index
   end
 
-  def show
+  def edit
   end
 
-  def edit
+  def update
   end
 
   def create
   end
 
-  def destroy
+  def new
   end
 
-  def view
+  def destroy
   end
 end
