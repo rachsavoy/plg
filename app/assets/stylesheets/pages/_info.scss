@@ -1,13 +1,13 @@
 
 
-.container {
+.info-container {
   width: 65%;
   height: auto;
   margin: 50px auto;
   padding: 20px 0px;
 }
 
-.row {
+.info-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -39,7 +39,7 @@
   object-fit: cover;
 }
 
-h1 {
+.info-card h1 {
   color: #013878;
   font-family: lato;
   font-weight: bold;

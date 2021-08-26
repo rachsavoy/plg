@@ -8,6 +8,8 @@
 	position: fixed; /* Stay in place */
   	z-index: 1; /* Stay on top */
   	height: 100%;
+  	width: 200px;
+  	top: 0px;
 }
 
 .line {
@@ -40,7 +42,7 @@ hr {
 	margin-bottom: 10px;
 }
 
-li {
+.item {
 	height: 50px;
 }
 
