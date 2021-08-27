@@ -8,14 +8,25 @@
 	border-radius: 10px;
 }
 
-.onboarding-card h1 {
-	color: #d2ab67;
-	font-size: 48px;
+.card-body-circle {
+	border-radius: 50%;
+}
+
+.welcome-row {
+	padding: 50px;
+	justify-content: space-between;
 }
 
 .info-row {
-	padding: 50px;
-	margin: 100px;
+	justify-content: left;
+	top: 700px;
+	align-items: flex-end;
+}
+
+
+.onboarding-card h1 {
+	color: #d2ab67;
+	font-size: 48px;
 }
 
 .onboarding-container {
@@ -23,6 +34,9 @@
 	background-repeat: no-repeat;
 	display: cover;
 	height: 100%;
+	top: 0px;
+	display: flex;
+	flex-direction: row;
 }
 
 .onboarding-card-circle {
@@ -38,9 +52,17 @@
 	background-color: #d2ab67;
 	color: white;
 	width: 500px;
-	height: 872;
+	height: 872px;
 	top: 107px;
 	left: 857px;
+	font-size: 26px;
+	line-height: 200%;
+}
+
+.vision-card h1 {
+	color: white;
+	text-decoration: underline;
+	font-size: 36px;
 }
 
 .mission-card {
@@ -50,7 +72,14 @@
 	height: 413px;
 	top: 107px;
 	left: 178px;
-	line-height: 1.5px;
+	font-size: 26px;
+	line-height: 200%;
+}
+
+.mission-card h1 {
+	color: #d2ab67;
+	text-decoration: underline;
+	font-size: 36px;
 }
 
 .about-card {
@@ -60,5 +89,14 @@
 	height: 459px;
 	top: 520px;
 	left: 176px;
-	line-height: 1.5px;
+	font-size: 26px;
+	line-height: 200%;
+	align-self: flex-end;
 }
+
+.about-card  h1 {
+ 	color: black;
+	text-decoration: underline;
+	font-size: 36px;
+}
+
