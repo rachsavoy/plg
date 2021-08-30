@@ -8,7 +8,7 @@
   left: 0;
   background-color: #d2ab67; /* Gold */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 10px; /* Place content 60px from the top */
+  padding-top: 0px; /* Place content 60px from the top */
 }
 
 /* The navigation menu links */
@@ -24,7 +24,12 @@
   color: #013878;
   height: 81px;
   width: 63px;
-  padding: 20px;
+  height: 63px;
+  padding: 5px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin: 5px;
+  margin-top: 10px;
 }
 
 /* When you mouse over the navigation links, change their color */
