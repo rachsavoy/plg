@@ -8,6 +8,12 @@
   transition: opacity 0.3s ease;
 }
 
+.btn-link {
+  color: #013878;
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
 .btn-ghost:hover {
   opacity: 1;
 }
