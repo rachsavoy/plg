@@ -18,7 +18,7 @@ class ApplicationController < ActionController::Base
   private
 
   def skip_pundit?
-    devise_controller? || params[:controller] =~ /(^(rails_)?admin)|(^pages$)/ || params[:controller] == "onboarding/dashboards" || params[:controller] == "profiles"
+    devise_controller? || params[:controller] =~ /(^(rails_)?admin)|(^pages$)/ || params[:controller] == "onboarding/dashboards" || params[:controller] == "profiles" || params[:controller] == "documents" || params[:controller] == "videos"
 
   end
 end
