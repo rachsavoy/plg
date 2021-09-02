@@ -1,7 +1,10 @@
 class LawyerTaskPolicy < ApplicationPolicy
   class Scope < Scope
     def resolve
-      scope.all
+      scope.where(user: user)
     end
+  end
+  def forms?
+    return true
   end
 end

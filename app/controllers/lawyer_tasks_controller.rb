@@ -1,5 +1,6 @@
 class LawyerTasksController < ApplicationController
   def index
+    @lawyer_tasks = policy_scope(LawyerTask)
   end
 
   def show
@@ -15,5 +16,10 @@ class LawyerTasksController < ApplicationController
   end
 
   def destroy
+  end
+
+  def forms
+    @lawyer_tasks = current_user.lawyer_tasks
+    authorize @lawyer_tasks
   end
 end

@@ -7,7 +7,11 @@ Rails.application.routes.draw do
 
   resources :support_tasks, only: [:index, :edit, :update, :create, :new, :destroy]
 
-  resources :lawyer_tasks, only: [:index, :edit, :update, :create, :new, :destroy]
+  resources :lawyer_tasks, only: [:index, :edit, :update, :create, :new, :destroy] do 
+    collection do 
+      get :forms
+    end
+  end 
 
   resource :profile, only: :show
 

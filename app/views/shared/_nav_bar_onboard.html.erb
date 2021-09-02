@@ -2,15 +2,31 @@
 <div id="mySidenav" class="sidenav">
   <!-- Left hand side navbar -->
   <ul class ="nav navbar-nav navbar-left sidenav">
-    <li><a href="lawyer_tasks#index"><i class="fas fa-clipboard-list fa-3x"></i>Checklist</a></li>
+    <li>
+      <%= link_to lawyer_tasks_path do %>
+        <i class="fas fa-clipboard-list fa-3x"></i>Checklist
+      <% end %>
+    </li>
 
-    <li><a href="lawyer_tasks#edit"><i class="fas fa-file-alt fa-3x"><br></i>&nbsp;Forms</a></li>
+    <li> 
+      <%= link_to forms_lawyer_tasks_path do %>
+        <i class="fas fa-file-alt fa-3x"><br></i>&nbsp;Forms
+      <% end %>
+    </li>
 
     <li><a href="vidoes#view"><i class="fas fa-video fa-3x"></i>Training Videos</a></li>
 
-    <li><a href="pages#info"><i class="fas fa-hands-helping fa-3x"></i>Helpful Information</a></li>
+    <li>
+      <%= link_to info_path do  %>
+        <i class="fas fa-hands-helping fa-3x"></i>Helpful Information
+      <% end %>
+    </li>
 
-    <li><a href="pages#faq"><i class="fas fa-question fa-3x"></i>&nbsp;&nbsp;&nbsp;FAQs</a></li>
+    <li>
+      <%= link_to faq_path do %>
+        <i class="fas fa-question fa-3x"></i>&nbsp;&nbsp;&nbsp;FAQs
+      <% end %>
+      </li>
 
     <li><a href="ticket#index"><i class="fas fa-hands-helping fa-3x"></i>Helpdesk Ticket</a></li>
   </ul>
