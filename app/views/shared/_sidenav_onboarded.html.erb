@@ -1,17 +1,20 @@
 <!--Navigation bar-->
 <div class="onboarded">
-  <%= link_to "#", class: "navbar-brand" do %>
-    <a href="https://www.parlatorelawgroup.com">
-      <img height="85" alt="logo image" src="https://www.dropbox.com/s/4p41fikdjrjhfdy/gold_logo.png?raw=1">
-    </a>
-  <% end %>
-  <div class="line">
-    <hr>
-  </div>
   <!-- Left hand side navbar -->
   <ul class ="nav navbar-nav navbar-left onboarded">
-    <li class="item"><a href="benefits#view"><i class="fas fa-heart"></i>Benefits</a></li>
-    <li><a href="https://www.dropbox.com/sh/r39qmol15sbe7y4/AAAylLPdalZk82S0b_SQ8gEMa?dl"><i class="fas fa-money-bill-alt"></i>Paystubs</a></li>
+    <li>
+      <a href="https://www.parlatorelawgroup.com">
+      <img height="85" alt="logo image" src="https://www.dropbox.com/s/4p41fikdjrjhfdy/gold_logo.png?raw=1"></a>
+    </li>
+    <div class="line">
+      <hr>
+    </div>
+    <li class="item">
+      <a href="benefits#view"><i class="fas fa-heart"></i>Benefits</a>
+    </li>
+    <li>
+      <a href="https://www.dropbox.com/sh/r39qmol15sbe7y4/AAAylLPdalZk82S0b_SQ8gEMa?dl"><i class="fas fa-money-bill-alt"></i>Paystubs</a>
+    </li>
     <li class="item">
       <%= link_to profile_path do %>
         <i class="fas fa-user"></i>Profile
@@ -31,8 +34,16 @@
         <i class="fas fa-images"></i>Headshots
       <% end %>
     </li>
-    <li class="item"><a href="social_media#view"><i class="fas fa-globe-americas"></i>Social Media</a></li>
-    <li class="item"><a href="pages/who#view"><i class="fas fa-users"></i>Who's Who</a></li>
+    <li class="item">
+      <%= link_to socials_path do %>
+        <i class="fas fa-globe-americas"></i>Social Media
+      <% end %>
+    </li>
+    <li class="item">
+      <%= link_to who_path do %>
+        <i class="fas fa-users"></i>Who's Who
+      <% end %>
+    </li>
     <div class="line">
       <hr>
     </div>
