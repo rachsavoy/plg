@@ -4,4 +4,23 @@
   	background-size: cover;
   	height: 100%;
   	width: 100%;
+  	text-align: center;
+}
+
+.benefits-card {
+	width: 258px;
+	height: 417px;
+	background-color: #c4c4c4;
+	color: #013878;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #013878;
+	margin-left: 500px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.benefits-card-header {
+	padding: 20px;
 }
