@@ -49,8 +49,16 @@
       <hr>
     </div>
     <br>
-    <li class="item"><a href="training#view"><i class="fas fa-video"></i>Video Training</a></li>
-    <li class="item"><a href="documents#view"><i class="fas fa-folder-open"></i>Shared Documents</a></li>
+    <li class="item">
+      <%= link_to videos_path do %>
+        <i class="fas fa-video"></i>Video Training
+      <% end %>
+    </li>
+    <li class="item">
+      <%= link_to documents_path do %>
+        <i class="fas fa-folder-open"></i>Shared Documents
+      <% end %>
+    </li>
     <li class="item"><a href="ticket#view"><i class="fas fa-hands-helping"></i>Helpdesk Ticket</a></li>
   </ul>
 </div>

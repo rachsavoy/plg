@@ -1,18 +1,4 @@
 Rails.application.routes.draw do
-  get 'videos/index'
-  get 'videos/show'
-  get 'videos/view'
-  get 'videos/create'
-  get 'videos/destroy'
-  get 'videos/edit'
-  get 'videos/update'
-  get 'documents/index'
-  get 'documents/show'
-  get 'documents/view'
-  get 'documents/create'
-  get 'documents/destroy'
-  get 'documents/edit'
-  get 'documents/update'
   resource :dashboard, only: :show
 
   namespace :onboarding do 
@@ -28,6 +14,10 @@ Rails.application.routes.draw do
   end 
 
   resource :profile, only: :show
+
+  resource :documents, only: [:index, :show, :view, :update, :create, :destroy, :edit]
+
+  resource :videos, only: [:index, :show, :view, :update, :create, :destroy, :edit]
 
   resource :blogs, only: [:index, :show, :new, :create]
 
