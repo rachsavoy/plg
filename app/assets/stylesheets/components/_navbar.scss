@@ -7,6 +7,10 @@
   }
 }
 
+.navbar {
+  justify-content: space-between;
+}
+
 .navbar-mt .navbar-collapse {
   flex-grow: 0;
   color: #d2ab67;
@@ -44,4 +48,9 @@
   color: #d2ab67;
   justify-content: space-between;
   text-align: center;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
 }
