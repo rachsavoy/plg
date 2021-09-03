@@ -5,4 +5,21 @@
   	height: 100%;
   	width: 100%;
   	text-align: center;
+  	margin-top: 0px;
+  	padding-top: 0px;
+}
+
+.forms-card {
+	color: black;
+	background-color: #c4c4c4;
+	height: 63px;
+	width: 790px;
+	border-radius: 20px;
+	box-shadow: 4 4 20(rgba 17, 17, 17, 0.1);
+	margin-left: 175px;
+	text-align: center;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	vertical-align: middle;
 }
