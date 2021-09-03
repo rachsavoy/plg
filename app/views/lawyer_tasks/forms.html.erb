@@ -2,7 +2,9 @@
 	<h4> Please fill out the forms below</h4>
 	<div class="forms-row">
 		<div class="forms-card">
-			<h4>1. Profile Information</h4>
+			<!--<a href="javascript:void();" class="readmore-btn">1. Profile Information</a>-->
+			<!--<label for="education">Education:</label>
+			<input type="text" id="education" name="education">-->
 		</div>
 		<div class="forms-card">
 			<h4>2. Malpractice Insurance</h4>
@@ -20,4 +22,13 @@
 			<h4>6. ACH Form</h4>
 		</div>
 	</div>
+	<script type="text/javascript">
+		$(".readmore-btn").on('click',function(){
+        $(this).parent().toggleClass("showContent");
+
+        var replaceText = $(this).parent().hasClass("showContent") ? "Read Less" : "Read More";
+        $(this).text(replaceText);
+    	});	
+	</script>
+	
 </div>
