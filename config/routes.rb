@@ -25,7 +25,7 @@ Rails.application.routes.draw do
 
   resources :practice_areas, only: [:index, :edit, :update, :new, :create, :destroy]
 
-  resources :licences, only: [:index, :edit, :update, :new, :create, :destroy]
+  resources :licenses, only: [:index, :edit, :update, :new, :create, :destroy]
 
   resources :socials, only: [:index, :show, :view, :new, :create, :edit, :update, :destroy]
 

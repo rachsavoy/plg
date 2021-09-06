@@ -1,0 +1,59 @@
+<!--Navigation bar-->
+<div class="onboarded">
+  <!-- Left hand side navbar -->
+  <ul class ="nav navbar-nav navbar-left onboarded">
+    <li>
+      <a href="https://www.parlatorelawgroup.com">
+      <img height="85" alt="logo image" src="https://www.dropbox.com/s/4p41fikdjrjhfdy/gold_logo.png?raw=1"></a>
+    </li>
+    <div class="line">
+      <hr>
+    </div>
+    <br>
+    <li class="item">
+      <%= link_to onboarding_dashboard_path do %>
+        <i class="fas fa-user-tie"></i>Onboarding Process
+      <% end %>
+    </li>
+    <li class="item">
+      <%= link_to profile_path do  %>
+        <i class="fas fa-user"></i>Employee Profiles
+      <% end %>
+    </li>
+    <div class="line">
+      <hr>
+    </div>
+    <br>
+    <li class="item">
+      <%= link_to new_headshot_path do %>
+        <i class="fas fa-images"></i>Lawyer Headshots
+      <% end %>
+    </li>
+    <li class="item">
+      <%= link_to licenses_path do %>
+        <i class="fas fa-balance-scale"></i>State Licenses
+      <% end %>
+    </li>
+    <li class="item">
+      <%= link_to new_social_path do %>
+        <i class="fas fa-globe-americas"></i>Social Media
+      <% end %>
+    </li>
+    <div class="line">
+      <hr>
+    </div>
+    <br>
+    <li class="item">
+      <%= link_to edit_videos_path do %>
+        <i class="fas fa-video"></i>Video Training
+      <% end %>
+    </li>
+    <li class="item">
+      <%= link_to edit_documents_path do %>
+        <i class="fas fa-folder-open"></i>Shared Documents
+      <% end %>
+    </li>
+    <li class="item"><a href="ticket#view"><i class="fas fa-hands-helping"></i>Helpdesk Ticket</a></li>
+  </ul>
+</div>
+  <!--Navbar End-->
