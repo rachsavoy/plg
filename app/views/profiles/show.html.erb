@@ -1,5 +1,41 @@
 <div class="profile-container">
-	<h1>profile#show</h1>
+	<h1>profile</h1>
+	<div class="hire-card">
+		<h2>Hire Date: March 25, 2019</h2>
+		<h2>Email: rachael.savoy@parlatorelawgroup.com</h2>
+	</div>
+	<div class="social-links">
+	</div>
+	<div class="tabs">
+	  <button class="w3-bar-item w3-button" onclick="openInfo('Education')">Education</button>
+	  <button class="w3-bar-item w3-button" onclick="openInfo('Practice Areas')">Practice Areas</button>
+	  <button class="w3-bar-item w3-button" onclick="openInfo('Licenses')">Licenses</button>
+	</div>
+	<div id="Education" class="education-container info">
+  		<h2>Education</h2>
+  		<p>College Degree</p>
+	</div>
+
+	<div id="Practice Areas" class="education-container info" style="display:none">
+  		<h2>Practice Areas</h2>
+  		<p>Practice Areas List:</p> 
+	</div>
+
+	<div id="Licenses" class="education-container info" style="display:none">
+  		<h2>State Licenses</h2>
+  		<p>State, Date, Partner</p>
+	</div>
+
+<script>
+	function openInfo(Info) {
+	  var i;
+	  var x = document.getElementsByClassName("info");
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";  
+	  }
+	  document.getElementById(Info).style.display = "block";  
+	}	
+</script>
 </div>
 
 
