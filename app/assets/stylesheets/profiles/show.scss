@@ -13,24 +13,32 @@
 }
 
 .tabs {
-	margin-left: 225px;
+	margin-left: 175px;
 }
 
 
 .tabs button {
 	background-color: #013878;
 	color: white;
-	padding: 6px 75px;
+	padding: 6px 92px;
 	border-radius: 5px;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .education-container {
 	background-color: #013878;
 	color: white;
-	width: 700px;
+	width: 800px;
 	border-radius: 5px;
-	margin-left: 342px;
-	padding: 32px;
+	margin-left: 378px;
+	padding: 78px;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .hire-card {
