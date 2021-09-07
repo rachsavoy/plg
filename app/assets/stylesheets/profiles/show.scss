@@ -16,6 +16,13 @@
 	margin-left: 175px;
 }
 
+.lawyer {
+	display: flex;
+	flex-wrap: wrap;
+	flex: left;
+	margin-left: 625px;
+}
+
 
 .tabs button {
 	background-color: #013878;
@@ -48,7 +55,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex: right;
-	margin-left: 600px;
+	margin-left: 800px;
 	margin-bottom: 100px;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	border-radius: 20px;
