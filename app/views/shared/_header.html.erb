@@ -4,41 +4,24 @@
       <%#= render 'chatroom/chatroom' %>
       <i class="fab fa-earlybirds fa-3x"><h6 align="left">&nbsp; Squack <br> Messages </h6></i>
         
-     
+        <!--<li class="nav-item dropdown">
 
-          <%#=if current_user.photo.attached? %>
+          <%# if current_user.photo.attached? %>
             <%#= image_tag current_user.photo,  class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
-            <%#= else %>
+            <%# else %>
             <%#= cl_image_tag "avatar_icon.png",  class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
             <%# end %>
 
-          <!--<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">-->
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
             <%#= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
-    </div>
-      <%#else %>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <% if user_signed_in? %>
-          <!--<li class="nav-item active">
-            <%#= link_to "Home", root_path, class: "nav-link" %>
-          </li>-->
-        <li class="nav-item dropdown">
-          <%= image_tag "https://kitt.lewagon.com/placeholder/users/rachsavoy", class: "avatar-circle dropdown-toggle", id: "navbarDropdown", data: { "bs-toggle": "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
-        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-          <%= link_to "Action", "#", class: "dropdown-item" %>
-          <%= link_to "Another action", "#", class: "dropdown-item" %>
-          <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
-        </div>
+          </div>
         </li>
-        <% else %>
+      <%# else %>
         <li class="nav-item">
-          <%= link_to "Login", new_user_session_path, class: "nav-link" %>
+          <%#= link_to "Login", new_user_session_path, class: "nav-link" %>
         </li>
-        <% end %>
-      </ul>
-    </div>
-      </div>
       <%# end %>
+      </ul>-->
     </div>
   </div>
 </div>
