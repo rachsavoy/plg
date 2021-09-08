@@ -40,5 +40,6 @@ Rails.application.routes.draw do
   get 'faq', to: 'pages#faq'
   get 'who', to: 'pages#who'
   get 'benefits', to: 'pages#benefits'
+  get 'support', to: 'pages#support'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
