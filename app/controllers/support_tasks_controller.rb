@@ -1,5 +1,6 @@
 class SupportTasksController < ApplicationController
   def index
+    @support_tasks = policy_scope(SupportTask)
   end
 
   def edit
