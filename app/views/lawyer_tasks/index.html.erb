@@ -6,8 +6,22 @@
 		<div class="set-up">
 			<h5>SET UP ACCOUNTS</h5>
 			<ul class="list-items">
-				<li><i class="far fa-square fa-lg"> Install Office 365</i></li>
-				<li><i class="far fa-square fa-lg"> RingCentral</i></li>
+				<li><%= check_box_tag 'install_office', @lawyer_tasks.id, @lawyer_tasks.install_office,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "install_office"}),
+							method: "POST",
+						}
+				 	%> Install Office 365
+				</li>
+				<li><%= check_box_tag 'ring_central', @lawyer_tasks.id, @lawyer_tasks.ring_central,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "ring_central"}),
+							method: "POST",
+						}
+				 	%> RingCentral
+				 </li>
 				<li><i class="far fa-square fa-lg"> Adobe Pro DC</i></li>
 				<li><i class="far fa-square fa-lg"> Law 360 </i></li>
 				<li><i class="far fa-square fa-lg"> VPN </i></li>

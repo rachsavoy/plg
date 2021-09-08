@@ -1,10 +1,13 @@
 class LawyerTaskPolicy < ApplicationPolicy
   class Scope < Scope
     def resolve
-      scope.where(user: user)
+      scope.find_by(user: user)
     end
   end
   def forms?
+    return true
+  end
+  def toggle?
     return true
   end
 end

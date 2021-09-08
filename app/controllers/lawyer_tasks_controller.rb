@@ -22,4 +22,10 @@ class LawyerTasksController < ApplicationController
     @lawyer_tasks = current_user.lawyer_tasks
     authorize @lawyer_tasks
   end
+
+  def toggle
+    @lawyer_tasks = current_user.lawyer_tasks.first
+    @lawyer_tasks.toggle!(params[:task].to_sym)
+    authorize @lawyer_tasks
+  end
 end
