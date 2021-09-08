@@ -1,0 +1,38 @@
+<!--Navigation bar-->
+<div id="mySidenav" class="sidenav">
+  <!-- Left hand side navbar -->
+  <ul class ="nav navbar-nav navbar-left sidenav">
+    <li>
+      <%= link_to support_tasks_path do %>
+        <i class="fas fa-clipboard-list fa-3x"></i>Checklist
+      <% end %>
+    </li>
+
+    <li> 
+      <%= link_to forms_support_tasks_path do %>
+        <i class="fas fa-file-alt fa-3x"><br></i>&nbsp;Forms
+      <% end %>
+    </li>
+
+    <li>
+      <%= link_to videos_path do %>
+        <i class="fas fa-video fa-3x"></i>Training Videos
+      <% end %>
+    </li>
+
+    <li>
+      <%= link_to info_path do  %>
+        <i class="fas fa-hands-helping fa-3x"></i>Helpful Information
+      <% end %>
+    </li>
+
+    <li>
+      <%= link_to faq_path do %>
+        <i class="fas fa-question fa-3x"></i>&nbsp;&nbsp;&nbsp;FAQs
+      <% end %>
+      </li>
+
+    <li><a href="ticket#index"><i class="fas fa-hands-helping fa-3x"></i>Helpdesk Ticket</a></li>
+  </ul>
+</div>
+  <!--Navbar End-->

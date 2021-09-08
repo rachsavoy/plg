@@ -16,4 +16,9 @@ class SupportTasksController < ApplicationController
 
   def destroy
   end
+
+  def forms
+    @support_tasks = current_user.support_tasks
+    authorize @support_tasks
+  end
 end

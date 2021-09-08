@@ -4,4 +4,7 @@ class SupportTaskPolicy < ApplicationPolicy
       scope.all
     end
   end
+  def forms?
+    return true
+  end
 end
