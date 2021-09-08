@@ -24,6 +24,11 @@
   justify-content: space-between;
 }
 
+.card-header {
+  display: inline-block;
+  flex: right;
+}
+
 h1 {
   color: #013878;
   font-family: lato;
@@ -43,6 +48,19 @@ ul {
 .row {
   margin-left: 275px;
 }
+
+.member-image {
+    border-radius: 50%;
+    display: inline-block;
+    flex: left;
+    // z-index: 1;
+
+    img {
+      border-radius: 50%;
+      width: 20%;
+    }
+}
+
 
 @media screen and (max-width: 600px) {
   .who-card {
