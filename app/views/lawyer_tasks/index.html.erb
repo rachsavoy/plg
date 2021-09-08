@@ -22,9 +22,30 @@
 						}
 				 	%> RingCentral
 				 </li>
-				<li><i class="far fa-square fa-lg"> Adobe Pro DC</i></li>
-				<li><i class="far fa-square fa-lg"> Law 360 </i></li>
-				<li><i class="far fa-square fa-lg"> VPN </i></li>
+				<li><%= check_box_tag 'adobe', @lawyer_tasks.id, @lawyer_tasks.adobe,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "adobe"}),
+							method: "POST",
+						}
+				 	%>Adobe Pro DC
+				 </li>
+				<li><%= check_box_tag 'law_threesixty', @lawyer_tasks.id, @lawyer_tasks.law_threesixty,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "law_threesixty"}),
+							method: "POST",
+						}
+				 	%>Law 360 
+				 </li>
+				<li><%= check_box_tag 'vpn', @lawyer_tasks.id, @lawyer_tasks.vpn,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "vpn"}),
+							method: "POST",
+						}
+				 	%> VPN 
+				</li>
 				<li><i class="far fa-square fa-lg"> Dropbox </i></li>
 				<li><i class="far fa-square fa-lg"> LexisNexis/CaseText (if applicable) </i></li>
 				<li><i class="far fa-square fa-lg"> Markify (if applicable) </i></li>
