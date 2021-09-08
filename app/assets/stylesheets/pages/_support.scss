@@ -14,16 +14,24 @@
   border-color: #d2ab67;
   border-radius: 10px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  height: auto;
-  margin-bottom: 5px;
-  margin-right: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: #013878;
-  float: center;
-  width: 311px;
+  float: left;
+  width: 33.33%;
   height: 195px;
-  padding: 0 10px;
+  padding: 20px;
   text-align: center;
-  box-sizing: border-box;
-  justify-content: space-between;
+  flex: 1 1 0px;
+}
 
+.support-card i {
+  font-size: 43px;
+}
+
+.support-row {
+  display: flex;
+  flex-direction: wrap;
 }
