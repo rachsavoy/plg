@@ -151,16 +151,56 @@
 						}
 				 	%>  
 				</li>
-				<li><i class="far fa-square fa-lg"> Martindale/Hubbell</i></li>
-				<li><i class="far fa-square fa-lg"> AVVO </i></li>
-				<li><i class="far fa-square fa-lg"> Update state bar registration </i></li>
+				<li>Martindale/Hubbell
+					<%= check_box_tag 'martindale', @lawyer_tasks.id, @lawyer_tasks.martindale,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "martindale"}),
+							method: "POST",
+						}
+				 	%>  
+				</li>
+				<li>AVVO
+					<%= check_box_tag 'avvo', @lawyer_tasks.id, @lawyer_tasks.avvo,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "avvo"}),
+							method: "POST",
+						}
+				 	%> 
+				</li>
+				<li>Update state bar registration 
+					<%= check_box_tag 'state_bar_registration', @lawyer_tasks.id, @lawyer_tasks.state_bar_registration,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "state_bar_registration"}),
+							method: "POST",
+						}
+				 	%> 
+				</li>
 			</ul>
 		</div>
 		<div class="set-up">
 			<h5>TRAINING AND ORIENTATION</h5>
 			<ul class="list-items">
-				<li><i class="far fa-square fa-lg"> New Subject Matter</i></li>
-				<li><i class="far fa-square fa-lg"> Running Invoices </i></li>
+				<li>New Subject Matter
+					<%= check_box_tag 'new_matter_training', @lawyer_tasks.id, @lawyer_tasks.new_matter_training,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "new_matter_training"}),
+							method: "POST",
+						}
+				 	%> 
+				</li>
+				<li>Running Invoices
+					<%= check_box_tag 'running_invoices', @lawyer_tasks.id, @lawyer_tasks.running_invoices,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "running_invoices"}),
+							method: "POST",
+						}
+				 	%> 
+				</li>
 			</ul>
 		</div>
 		<div class="set-up">
