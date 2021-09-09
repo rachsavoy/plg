@@ -6,7 +6,15 @@
 		<div class="set-up">
 			<h5>SET UP ACCOUNTS</h5>
 			<ul class="list-items">
-				<li><i class="far fa-square fa-lg"> Install Office 365</i></li>
+				<li>Install Office 365
+					<%#= check_box_tag 'install_office', @support_tasks.id, @support_tasks.install_office,
+						data: {
+							remote: true,
+							url: toggle_support_task_path(@support_tasks, params: {task: "install_office"}),
+							method: "POST",
+						}
+				 	%> 
+				</li>
 				<li><i class="far fa-square fa-lg"> RingCentral</i></li>
 				<li><i class="far fa-square fa-lg"> Adobe Pro DC</i></li>
 				<li><i class="far fa-square fa-lg"> VPN </i></li>

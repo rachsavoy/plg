@@ -22,4 +22,10 @@ class SupportTasksController < ApplicationController
     @support_tasks = current_user.support_tasks
     authorize @support_tasks
   end
+
+  def toggle
+    @support_tasks = current_user.support_tasks.first
+    @support_tasks.toggle!(params[:task].to_sym)
+    authorize @support_tasks
+  end
 end

@@ -9,6 +9,9 @@ Rails.application.routes.draw do
     collection do 
       get :forms 
     end
+    member do 
+      post :toggle
+    end
   end
 
   resources :lawyer_tasks, only: [:index, :edit, :update, :create, :new, :destroy] do 

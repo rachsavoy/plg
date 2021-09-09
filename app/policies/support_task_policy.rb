@@ -7,4 +7,7 @@ class SupportTaskPolicy < ApplicationPolicy
   def forms?
     return true
   end
+  def toggle?
+    return true
+  end
 end

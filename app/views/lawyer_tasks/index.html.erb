@@ -206,8 +206,24 @@
 		<div class="task-set-up">
 			<h5>FOR THE WEBSITE</h5>
 			<ul class="list-items">
-				<li><i class="far fa-square fa-lg"> Photo Shoot</i></li>
-				<li><i class="far fa-square fa-lg"> Biography & Announcement</i></li>
+				<li>Photo Shoot
+					<%= check_box_tag 'photo_shoot', @lawyer_tasks.id, @lawyer_tasks.photo_shoot,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "photo_shoot"}),
+							method: "POST",
+						}
+				 	%> 
+				</li>
+				<li>Biography & Announcement
+					<%= check_box_tag 'biography_announcement', @lawyer_tasks.id, @lawyer_tasks.biography_announcement,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "biography_announcement"}),
+							method: "POST",
+						}
+				 	%> 
+				</li>
 			</ul>
 		</div>
 	</div>
