@@ -6,101 +6,151 @@
 		<div class="set-up">
 			<h5>SET UP ACCOUNTS</h5>
 			<ul class="list-items">
-				<li><%= check_box_tag 'install_office', @lawyer_tasks.id, @lawyer_tasks.install_office,
+				<li>Install Office 365
+					<%= check_box_tag 'install_office', @lawyer_tasks.id, @lawyer_tasks.install_office,
 						data: {
 							remote: true,
 							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "install_office"}),
 							method: "POST",
 						}
-				 	%> Install Office 365
+				 	%> 
 				</li>
-				<li><%= check_box_tag 'ring_central', @lawyer_tasks.id, @lawyer_tasks.ring_central,
+				<li>RingCentral
+					<%= check_box_tag 'ring_central', @lawyer_tasks.id, @lawyer_tasks.ring_central,
 						data: {
 							remote: true,
 							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "ring_central"}),
 							method: "POST",
 						}
-				 	%> RingCentral
+				 	%> 
 				</li>
-				<li><%= check_box_tag 'adobe', @lawyer_tasks.id, @lawyer_tasks.adobe,
+				<li>Adobe Pro DC
+					<%= check_box_tag 'adobe', @lawyer_tasks.id, @lawyer_tasks.adobe,
 						data: {
 							remote: true,
 							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "adobe"}),
 							method: "POST",
 						}
-				 	%>Adobe Pro DC
+				 	%>
 				</li>
-				<li><%= check_box_tag 'law_threesixty', @lawyer_tasks.id, @lawyer_tasks.law_threesixty,
+				<li>Law 360
+					<%= check_box_tag 'law_threesixty', @lawyer_tasks.id, @lawyer_tasks.law_threesixty,
 						data: {
 							remote: true,
 							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "law_threesixty"}),
 							method: "POST",
 						}
-				 	%>Law 360 
+				 	%> 
 				</li>
-				<li><%= check_box_tag 'vpn', @lawyer_tasks.id, @lawyer_tasks.vpn,
+				<li>VPN 
+					<%= check_box_tag 'vpn', @lawyer_tasks.id, @lawyer_tasks.vpn,
 						data: {
 							remote: true,
 							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "vpn"}),
 							method: "POST",
 						}
-				 	%> VPN 
+				 	%> 
 				</li>
-				<li><%= check_box_tag 'dropbox', @lawyer_tasks.id, @lawyer_tasks.dropbox,
+				<li>Dropbox
+					<%= check_box_tag 'dropbox', @lawyer_tasks.id, @lawyer_tasks.dropbox,
 						data: {
 							remote: true,
 							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "dropbox"}),
 							method: "POST",
 						}
-				 	%> Dropbox
+				 	%> 
 				</li>
-				<li><%= check_box_tag 'lexisnexis', @lawyer_tasks.id, @lawyer_tasks.lexisnexis,
+				<li>LexisNexis/CaseText (if applicable) 
+					<%= check_box_tag 'lexisnexis', @lawyer_tasks.id, @lawyer_tasks.lexisnexis,
 						data: {
 							remote: true,
 							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "lexisnexis"}),
 							method: "POST",
 						}
-				 	%> LexisNexis/CaseText (if applicable) 
+				 	%> 
 				</li>
-				<li><%= check_box_tag 'markify', @lawyer_tasks.id, @lawyer_tasks.markify,
+				<li>Markify (if applicable)
+					<%= check_box_tag 'markify', @lawyer_tasks.id, @lawyer_tasks.markify,
 						data: {
 							remote: true,
 							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "markify"}),
 							method: "POST",
 						}
-				 	%>Markify (if applicable) 
+				 	%> 
 				</li>
 			</ul>
 		</div>
 		<div class="set-up">
 			<h5>FORMS TO FILL OUT</h5>
 			<ul class="list-items">
-				<li><%= check_box_tag 'profile_info_form', @lawyer_tasks.id, @lawyer_tasks.profile_info_form,
+				<li>Profile Information
+					<%= check_box_tag 'profile_info_form', @lawyer_tasks.id, @lawyer_tasks.profile_info_form,
 						data: {
 							remote: true,
 							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "profile_info_form"}),
 							method: "POST",
 						}
-				 	%>Profile Information
+				 	%>
 				</li>
-				<li><%= check_box_tag 'malpractice_insurance_form', @lawyer_tasks.id, @lawyer_tasks.malpractice_insurance_form,
+				<li>Malpractice Insurance
+					<%= check_box_tag 'malpractice_insurance_form', @lawyer_tasks.id, @lawyer_tasks.malpractice_insurance_form,
 						data: {
 							remote: true,
 							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "malpractice_insurance_form"}),
 							method: "POST",
 						}
-				 	%> Malpractice Insurance
+				 	%> 
 				</li>
-				<li><i class="far fa-square fa-lg"> Benefits </i></li>
-				<li><i class="far fa-square fa-lg"> Tax Form W-9</i></li>
-				<li><i class="far fa-square fa-lg"> NDA Form</i></li>
-				<li><i class="far fa-square fa-lg"> ACH Form</i></li>
+				<li>Benefits
+					<%= check_box_tag 'benefits', @lawyer_tasks.id, @lawyer_tasks.benefits,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "benefits"}),
+							method: "POST",
+						}
+				 	%>
+				</li>
+				<li>Tax Form W-9
+					<%= check_box_tag 'tax_form', @lawyer_tasks.id, @lawyer_tasks.tax_form,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "tax_form"}),
+							method: "POST",
+						}
+				 	%>
+				</li>
+				<li>NDA Form
+					<%= check_box_tag 'nda_form', @lawyer_tasks.id, @lawyer_tasks.nda_form,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "nda_form"}),
+							method: "POST",
+						}
+				 	%>
+				</li>
+				<li>ACH Form
+					<%= check_box_tag 'ach_form', @lawyer_tasks.id, @lawyer_tasks.ach_form,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "ach_form"}),
+							method: "POST",
+						}
+				 	%>
+				</li>
 			</ul>
 		</div>
 		<div class="set-up">
 			<h5>UPDATE/CREATE PROFILES</h5>
 			<ul class="list-items">
-				<li><i class="far fa-square fa-lg"> Update all social Media </i></li>
+				<li>Update all social Media
+					<%= check_box_tag 'social_media', @lawyer_tasks.id, @lawyer_tasks.social_media,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "social_media"}),
+							method: "POST",
+						}
+				 	%>  
+				</li>
 				<li><i class="far fa-square fa-lg"> Martindale/Hubbell</i></li>
 				<li><i class="far fa-square fa-lg"> AVVO </i></li>
 				<li><i class="far fa-square fa-lg"> Update state bar registration </i></li>
