@@ -21,7 +21,7 @@
 							method: "POST",
 						}
 				 	%> RingCentral
-				 </li>
+				</li>
 				<li><%= check_box_tag 'adobe', @lawyer_tasks.id, @lawyer_tasks.adobe,
 						data: {
 							remote: true,
@@ -29,7 +29,7 @@
 							method: "POST",
 						}
 				 	%>Adobe Pro DC
-				 </li>
+				</li>
 				<li><%= check_box_tag 'law_threesixty', @lawyer_tasks.id, @lawyer_tasks.law_threesixty,
 						data: {
 							remote: true,
@@ -37,7 +37,7 @@
 							method: "POST",
 						}
 				 	%>Law 360 
-				 </li>
+				</li>
 				<li><%= check_box_tag 'vpn', @lawyer_tasks.id, @lawyer_tasks.vpn,
 						data: {
 							remote: true,
@@ -46,16 +46,51 @@
 						}
 				 	%> VPN 
 				</li>
-				<li><i class="far fa-square fa-lg"> Dropbox </i></li>
-				<li><i class="far fa-square fa-lg"> LexisNexis/CaseText (if applicable) </i></li>
-				<li><i class="far fa-square fa-lg"> Markify (if applicable) </i></li>
+				<li><%= check_box_tag 'dropbox', @lawyer_tasks.id, @lawyer_tasks.dropbox,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "dropbox"}),
+							method: "POST",
+						}
+				 	%> Dropbox
+				</li>
+				<li><%= check_box_tag 'lexisnexis', @lawyer_tasks.id, @lawyer_tasks.lexisnexis,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "lexisnexis"}),
+							method: "POST",
+						}
+				 	%> LexisNexis/CaseText (if applicable) 
+				</li>
+				<li><%= check_box_tag 'markify', @lawyer_tasks.id, @lawyer_tasks.markify,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "markify"}),
+							method: "POST",
+						}
+				 	%>Markify (if applicable) 
+				</li>
 			</ul>
 		</div>
 		<div class="set-up">
 			<h5>FORMS TO FILL OUT</h5>
 			<ul class="list-items">
-				<li><i class="far fa-square fa-lg"> Profile Information</i></li>
-				<li><i class="far fa-square fa-lg"> Malpractice Insurance</i></li>
+				<li><%= check_box_tag 'profile_info_form', @lawyer_tasks.id, @lawyer_tasks.profile_info_form,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "profile_info_form"}),
+							method: "POST",
+						}
+				 	%>Profile Information
+				</li>
+				<li><%= check_box_tag 'malpractice_insurance_form', @lawyer_tasks.id, @lawyer_tasks.malpractice_insurance_form,
+						data: {
+							remote: true,
+							url: toggle_lawyer_task_path(@lawyer_tasks, params: {task: "malpractice_insurance_form"}),
+							method: "POST",
+						}
+				 	%> Malpractice Insurance
+				</li>
 				<li><i class="far fa-square fa-lg"> Benefits </i></li>
 				<li><i class="far fa-square fa-lg"> Tax Form W-9</i></li>
 				<li><i class="far fa-square fa-lg"> NDA Form</i></li>
