@@ -7,19 +7,35 @@
   	text-align: center;
 }
 
-.set-up {
+.task-set-up {
 	text-align: left;
 	margin-left: 150px;
 	color: black;
 	font-weight: bold;
 	padding-top: 5px;
+	font-size: 18px;
 }
 
 .list-items {
 	list-style-type: none;
-	width: 50%;
+	width: 100%;
 }
 
 .name {
 	color: black;
 }
+
+
+.list-items input[type="checkbox"]+label{
+    transition: all 300ms ease;
+    font-size: 4.2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: 3px solid black;
+    background-color: #013878;
+    padding: 1rem 1rem;
+    display: inline-block;
+    color: white;
+
+ }
+    
