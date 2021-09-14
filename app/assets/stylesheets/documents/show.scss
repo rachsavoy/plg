@@ -17,17 +17,30 @@
   	height: 97px;
 }
 
-.files {
-	color: #013878;
-	font-size: 32px;
-	font-weight: bold;
-	margin-left: 222px;
-	margin-top: 42px;
-	text-align: center;
-	width: 100%;
-	height: auto;
+.shared-row {
+	margin-top: 30px;
+	margin-left: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 66%;
+
 }
 
-.files li {
-	margin: 40px;
+.shared-card {
+	background-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #013878;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	height: auto;
+	margin-bottom: 20px;
+	margin-right: 30px;
+	color: #013878;
+	float: right;
+	width: 525px;
+	padding: 0px;
+	text-align: center;
+	box-sizing: border-box;
+	justify-content: space-between;
+	font-size: 18px;
 }
