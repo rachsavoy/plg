@@ -21,6 +21,7 @@ class LawyerTasksController < ApplicationController
   def forms
     @lawyer_tasks = current_user.lawyer_tasks
     authorize @lawyer_tasks
+    @practice_area = PracticeArea.new
   end
 
   def toggle

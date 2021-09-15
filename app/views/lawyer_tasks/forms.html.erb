@@ -3,6 +3,19 @@
 	<div class="forms-row">
 		<div class="forms-card">
 			<h4>1. Profile Information</h4>
+			<p>
+  				<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" 	aria-controls="collapseExample">
+    			1. Profile Information
+  				</a>
+			</p>
+			<div class="collapse" id="collapseExample">
+  				<div class="card card-body">
+    				<%= simple_form_for(@practice_area) do |f| %>
+ 					<%= f.input :practice %>
+  					<%= f.submit %>
+					<% end %>
+  				</div>
+			</div>
 			<!--<a href="javascript:void();" class="readmore-btn">1. Profile Information</a>-->
 			<!--<label for="education">Education:</label>
 			<input type="text" id="education" name="education">-->

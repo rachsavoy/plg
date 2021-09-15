@@ -5,6 +5,11 @@ Rails.application.routes.draw do
     resource :dashboard, only: :show 
   end
 
+  namespace :admin do 
+    resource :dashboard, only: :show
+    resource :onboarding_dashboard, only: :show
+  end
+
   resources :support_tasks, only: [:index, :edit, :update, :create, :new, :destroy] do
     collection do 
       get :forms 
@@ -24,6 +29,8 @@ Rails.application.routes.draw do
   end 
 
   resource :profile, only: :show
+
+  resources :profiles, only: :index
 
   resource :documents, only: [:index, :show, :view, :update, :create, :destroy, :edit]
 

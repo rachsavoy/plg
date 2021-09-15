@@ -7,4 +7,6 @@ class User < ApplicationRecord
   has_one_attached :photo
 
   has_many :lawyer_tasks
+
+  has_many :support_tasks
 end

@@ -7,7 +7,7 @@
 			<h5>SET UP ACCOUNTS</h5>
 			<ul class="list-items">
 				<li>Install Office 365
-					<%#= check_box_tag 'install_office', @support_tasks.id, @support_tasks.install_office,
+					<%= check_box_tag 'install_office', @support_tasks.id, @support_tasks.install_office,
 						data: {
 							remote: true,
 							url: toggle_support_task_path(@support_tasks, params: {task: "install_office"}),
@@ -15,7 +15,15 @@
 						}
 				 	%> 
 				</li>
-				<li><i class="far fa-square fa-lg"> RingCentral</i></li>
+				<li>RingCentral
+					<%= check_box_tag 'ring_central', @support_tasks.id, @support_tasks.ring_central,
+						data: {
+							remote: true,
+							url: toggle_support_task_path(@support_tasks, params: {task: "ring_central"}),
+							method: "POST",
+						}
+				 	%>  
+				 </li>
 				<li><i class="far fa-square fa-lg"> Adobe Pro DC</i></li>
 				<li><i class="far fa-square fa-lg"> VPN </i></li>
 				<li><i class="far fa-square fa-lg"> Dropbox </i></li>

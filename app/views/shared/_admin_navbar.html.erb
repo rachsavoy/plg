@@ -11,12 +11,17 @@
     </div>
     <br>
     <li class="item">
-      <%= link_to onboarding_dashboard_path do %>
-        <i class="fas fa-user-tie"></i>Onboarding Process
+      <%= link_to admin_dashboard_path do %>
+        <i class="fas fa-user-tie"></i>Admin dashboard
       <% end %>
     </li>
     <li class="item">
-      <%= link_to profile_path do  %>
+      <%= link_to admin_onboarding_dashboard_path do %>
+        <i class="fas fa-user-tie"></i>Onboarding Dashboard
+      <% end %>
+    </li>
+    <li class="item">
+      <%= link_to profiles_path do  %>
         <i class="fas fa-user"></i>Employee Profiles
       <% end %>
     </li>

@@ -3,4 +3,8 @@ class ProfilesController < ApplicationController
     @profile = current_user
     #authorize @profile
   end
+
+  def index
+    @profiles = policy_scope(User)
+  end
 end
