@@ -24,10 +24,42 @@
 						}
 				 	%>  
 				 </li>
-				<li><i class="far fa-square fa-lg"> Adobe Pro DC</i></li>
-				<li><i class="far fa-square fa-lg"> VPN </i></li>
-				<li><i class="far fa-square fa-lg"> Dropbox </i></li>
-				<li><i class="far fa-square fa-lg"> Gusto </i></li>
+				<li>Adobe Pro DC
+					<%= check_box_tag 'adobe', @support_tasks.id, @support_tasks.adobe,
+						data: {
+							remote: true,
+							url: toggle_support_task_path(@support_tasks, params: {task: "adobe"}),
+							method: "POST",
+						}
+				 	%>  
+				</li>
+				<li>VPN 
+					<%= check_box_tag 'vpn', @support_tasks.id, @support_tasks.vpn,
+						data: {
+							remote: true,
+							url: toggle_support_task_path(@support_tasks, params: {task: "vpn"}),
+							method: "POST",
+						}
+				 	%>  
+				</li>
+				<li>Dropbox
+					<%= check_box_tag 'dropbox', @support_tasks.id, @support_tasks.dropbox,
+						data: {
+							remote: true,
+							url: toggle_support_task_path(@support_tasks, params: {task: "dropbox"}),
+							method: "POST",
+						}
+				 	%>  
+				</li>
+				<li> Gusto
+					<%= check_box_tag 'gusto', @support_tasks.id, @support_tasks.gusto,
+						data: {
+							remote: true,
+							url: toggle_support_task_path(@support_tasks, params: {task: "gusto"}),
+							method: "POST",
+						}
+				 	%>  
+				</li>
 			</ul>
 		</div>
 		<div class="set-up">
