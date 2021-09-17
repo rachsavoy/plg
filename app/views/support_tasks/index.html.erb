@@ -65,21 +65,61 @@
 		<div class="set-up">
 			<h5>FORMS TO FILL OUT</h5>
 			<ul class="list-items">
-				<li><i class="far fa-square fa-lg"> Tax Form W-9</i></li>
-				<li><i class="far fa-square fa-lg"> ACH Form</i></li>
+				<li>Tax Form W-9
+					<%= check_box_tag 'tax_form', @support_tasks.id, @support_tasks.tax_form,
+						data: {
+							remote: true,
+							url: toggle_support_task_path(@support_tasks, params: {task: "tax_form"}),
+							method: "POST",
+						}
+				 	%>  
+				</li>
+				<li>ACH Form
+					<%= check_box_tag 'nda_form', @support_tasks.id, @support_tasks.nda_form,
+						data: {
+							remote: true,
+							url: toggle_support_task_path(@support_tasks, params: {task: "nda_form"}),
+							method: "POST",
+						}
+				 	%>  
+				</li>
 			</ul>
 		</div>
 		<div class="set-up">
 			<h5>UPDATE/CREATE PROFILES</h5>
 			<ul class="list-items">
-				<li><i class="far fa-square fa-lg"> Update all social Media </i></li>
-				<li><i class="far fa-square fa-lg"> Email Signature</i></li>
+				<li>Update all social Media 
+					<%= check_box_tag 'update_social_media', @support_tasks.id, @support_tasks.update_social_media,
+						data: {
+							remote: true,
+							url: toggle_support_task_path(@support_tasks, params: {task: "update_social_media"}),
+							method: "POST",
+						}
+				 	%>  
+				</li>
+				<li>Email Signature
+					<%= check_box_tag 'email_signature', @support_tasks.id, @support_tasks.email_signature,
+						data: {
+							remote: true,
+							url: toggle_support_task_path(@support_tasks, params: {task: "email_signature"}),
+							method: "POST",
+						}
+				 	%>  
+				</li>
 			</ul>
 		</div>
 		<div class="set-up">
 			<h5>TRAINING AND ORIENTATION</h5>
 			<ul class="list-items">
-				<li><i class="far fa-square fa-lg"> New Employee Training</i></li>
+				<li>New Employee Training
+					<%= check_box_tag 'new_employee_training', @support_tasks.id, @support_tasks.new_employee_training,
+						data: {
+							remote: true,
+							url: toggle_support_task_path(@support_tasks, params: {task: "new_employee_training"}),
+							method: "POST",
+						}
+				 	%>  
+				</li>
 			</ul>
 		</div>
 	</div>
