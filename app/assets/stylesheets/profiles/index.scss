@@ -5,3 +5,38 @@
   	height: 100%;
   	width: 100%;
 }
+
+.admin-profiles-title {
+	background-color: #fff;
+	width: 100%;
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	height: 97px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	color: black;
+}
+
+.admin-profiles-title h2 {
+	color: black;
+	margin-left: 450px;
+	vertical-align: middle;
+}
+
+.admin-profiles-card {
+	width: 200px;
+	height: 200px;
+	background-color: #7C76761A;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #d2ab67;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	margin: 10px;
+	padding: 40px 60px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.pro {
+	margin-left: 200px;
+}
