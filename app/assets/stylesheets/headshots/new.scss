@@ -1,0 +1,40 @@
+.admin-headshots {
+	background-image: linear-gradient(#d2ab67, white);
+  	background-repeat: repeat;
+  	background-size: cover;
+  	height: 100%;
+  	width: 100%;
+}
+
+.admin-headshots-title {
+	background-color: #fff;
+	width: 100%;
+	border-color: #013878;
+	border-width: 3px;
+	border-style: solid;
+	height: 97px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	color: #013878;
+	margin-left: 100px;
+}
+
+.admin-headshots-title h2 {
+	color: #013878;
+	margin-left: 450px;
+	vertical-align: middle;
+}
+
+.admin-headshots-card {
+	width: 300px;
+	height: 64px;
+	background-color: #c4c4c4;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #013878;
+	border-radius: 50px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	margin: 10px;
+	padding: 20px 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
