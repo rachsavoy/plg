@@ -4,9 +4,14 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
+  ROLES = ["lawyer", "support", "admin"]
+
   has_one_attached :photo
 
   has_many :lawyer_tasks
 
   has_many :support_tasks
+
+  def onboarded?
+  end
 end

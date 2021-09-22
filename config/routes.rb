@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resource :dashboard, only: :show
 
   namespace :onboarding do 
@@ -46,7 +47,7 @@ Rails.application.routes.draw do
 
   resources :socials, only: [:index, :show, :view, :new, :create, :edit, :update, :destroy]
 
-  devise_for :users
+  
   root to: 'pages#home'
   get '/kitchensink', to: 'pages#kitchensink' if Rails.env.development?
   get 'info', to: 'pages#info' 
