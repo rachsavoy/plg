@@ -63,17 +63,28 @@ button:hover {
 }
 
 .text-center {
-  margin: 10px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
 }
 
 .account {
   color: #013878;
-  justify-content: space-around;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .account a {
   color: #013878;
+  font-size: 22px;
+  font-weight: bold;
   margin-right: 50px;
+  margin-left: 50px;
+}
+
+.account a:hover {
+  text-decoration: underline;
 }
 
 .psw {
