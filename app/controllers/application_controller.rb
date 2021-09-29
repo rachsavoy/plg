@@ -28,7 +28,13 @@ class ApplicationController < ActionController::Base
   protected 
 
   def after_sign_in_path_for(resource)
-      if current_user.role == "lawyer"  || current_user.role == "support"
+      if (current_user.role == "lawyer" && current_user.onboarded?)
+        profile_path
+      elsif (current_user.role == "support" && current_user.onboarded?)
+        support_path
+      elsif current_user.role == "admin" 
+        admin_dashboard_path
+      elsif current_user.role == "lawyer" || current_user.role == "support"
         onboarding_dashboard_path
       end
   end

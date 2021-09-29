@@ -13,5 +13,6 @@ class User < ApplicationRecord
   has_many :support_tasks
 
   def onboarded?
+    onboarded == true
   end
 end
