@@ -14,13 +14,29 @@
 
   <body>
 
-   <%#= if current_user.role == "lawyer" %>
+
+    <%= if (current_user.role == "lawyer" && current_user.onboarded?)
+          render 'shared/header'
+          render 'shared/sidenav_onboarded'
+        elsif (current_user.role == "support" && current_user.onboarded?)
+          render 'shared/navbar'
+        elsif current_user.role == "admin" 
+          render 'shared/header'
+          render 'shared/admin_navbar'
+        elsif current_user.role == "lawyer"
+          render 'shared/navbar'
+          render 'shared/navbar_onboard'
+        elsif current_user.role == "support"
+          render 'shared/navbar'
+          render 'shared/supportstaff_navbar'
+        end
+    %>
    
         <%#= render 'shared/navbar' %>
         <%#= render 'shared/flashes' %>
         <%#= render 'shared/nav_bar_onboard' %>
         <%#= render 'shared/sidenav_onboarded' %>
-        <%= render 'shared/header' %>
+        <%#= render 'shared/header' %>
         <%#= render 'shared/admin_navbar' %>
         <%#= render 'shared/supportstaff_navbar' %>
 
