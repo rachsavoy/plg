@@ -11,6 +11,10 @@
   justify-content: space-between;
 }
 
+.collapse {
+  flex-grow: 0;
+}
+
 .navbar-mt .navbar-collapse {
   flex-grow: 0;
   color: #d2ab67;
@@ -54,4 +58,5 @@
 .navbar-nav {
   display: flex;
   justify-content: space-between;
+  flex-grow: 0;
 }
