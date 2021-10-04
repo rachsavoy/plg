@@ -20,21 +20,31 @@
 .grid-onboarding {
 	display: grid;
   	grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
-  	grid-gap: 20px;
+  	grid-gap: 40px;
   	align-items: stretch;
-  	margin-left: 200px;
-  	margin-right: 250px;
+  	margin-left: 145px;
+  	margin-right: 65px;
 }
 
 .onboarding-card-circle {
 	border-radius: 50%;
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 	border-color: #d2ab67;
 	border-style: solid;
 	border-width: 1px;
 	background-color: white;
 	margin: 50px;
+	margin-left: 230px;
+	margin-right: 200px;
+}
+
+.card-body-circle {
+	width: 173px;
+	height: auto;
+	padding: 20px;
+	margin-right: 0;
+	margin: 30px;
 }
 
 .vision-card {
