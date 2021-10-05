@@ -1,0 +1,35 @@
+.lawyer-dash-container {
+	background-image: linear-gradient(#d2ab67, white);
+  	background-repeat: repeat;
+  	background-size: cover;
+  	height: 3000px;
+  	width: 100%;
+}
+
+.lawyer-title {
+	color: #013878;
+	text-align: center;
+	margin-left: 200px;
+}
+
+.lawyer-body {
+	margin-top: 150px;
+}
+
+.lawyer-body h1 {
+	margin-right: 400px;
+	font-size: 38px;
+}
+
+.lawyer-card {
+	background-color: #fff;
+	border-color: #d2ab67;
+	border-style: none;
+	border-width: 3px;
+	width: 400px;
+	height: 400px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-left: 300px;
+}
