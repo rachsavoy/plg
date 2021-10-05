@@ -29,7 +29,7 @@ class ApplicationController < ActionController::Base
 
   def after_sign_in_path_for(resource)
       if (current_user.role == "lawyer" && current_user.onboarded?)
-        profile_path
+        onboarded_dashboard_path
       elsif (current_user.role == "support" && current_user.onboarded?)
         support_path
       elsif current_user.role == "admin" 
@@ -42,6 +42,6 @@ class ApplicationController < ActionController::Base
   private
 
   def skip_pundit?
-    devise_controller? || params[:controller] =~ /(^(rails_)?admin)|(^pages$)/ || params[:controller] == "onboarding/dashboards" || params[:controller] == "profiles" || params[:controller] == "documents" || params[:controller] == "videos" || params[:controller] == "blogs" || params[:controller] == "headshots" || params[:controller] == "socials" || params[:controller] == "support_tasks" || params[:controller] == "licenses"
+    devise_controller? || params[:controller] =~ /(^(rails_)?admin)|(^pages$)/ || params[:controller] == "onboarding/dashboards" || params[:controller] == "profiles" || params[:controller] == "documents" || params[:controller] == "videos" || params[:controller] == "blogs" || params[:controller] == "headshots" || params[:controller] == "socials" || params[:controller] == "support_tasks" || params[:controller] == "licenses" || params[:controller] == "onboarded/dashboards"
   end
 end
