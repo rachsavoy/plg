@@ -11,6 +11,10 @@ Rails.application.routes.draw do
     resource :onboarding_dashboard, only: :show
   end
 
+  namespace :onboarded do 
+    resource :dashboard, only: :show 
+  end
+
   resources :support_tasks, only: [:index, :edit, :update, :create, :new, :destroy] do
     collection do 
       get :forms 
