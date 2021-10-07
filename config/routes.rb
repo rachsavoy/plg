@@ -51,6 +51,8 @@ Rails.application.routes.draw do
 
   resources :socials, only: [:index, :show, :view, :new, :create, :edit, :update, :destroy]
 
+  resources :tickets, only: [:index, :show, :new, :create, :update]
+
   
   root to: 'pages#home'
   get '/kitchensink', to: 'pages#kitchensink' if Rails.env.development?

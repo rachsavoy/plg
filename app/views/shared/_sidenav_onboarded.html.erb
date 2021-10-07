@@ -61,7 +61,11 @@
         <i class="fas fa-folder-open"></i>Shared Documents
       <% end %>
     </li>
-    <li class="item"><a href="ticket#view"><i class="fas fa-hands-helping"></i>Helpdesk Ticket</a></li>
+    <li class="item">
+      <%= link_to new_ticket_path do %>
+        <i class="fas fa-hands-helping"></i>Helpdesk Ticket
+      <% end %>
+    </li>
   </ul>
 </div>
   <!--Navbar End-->

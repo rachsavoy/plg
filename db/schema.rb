@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_29_054540) do
+ActiveRecord::Schema.define(version: 2021_10_07_003412) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -123,6 +123,17 @@ ActiveRecord::Schema.define(version: 2021_09_29_054540) do
     t.index ["user_id"], name: "index_support_tasks_on_user_id"
   end
 
+  create_table "tickets", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.string "department"
+    t.string "email"
+    t.boolean "completed"
+    t.text "content"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_tickets_on_user_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
@@ -154,5 +165,6 @@ ActiveRecord::Schema.define(version: 2021_09_29_054540) do
   add_foreign_key "practice_areas", "users"
   add_foreign_key "social_media", "users"
   add_foreign_key "support_tasks", "users"
+  add_foreign_key "tickets", "users"
   add_foreign_key "videos", "users"
 end
