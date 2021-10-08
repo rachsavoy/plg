@@ -21,14 +21,14 @@
         <% elsif (current_user.role == "support" && current_user.onboarded?) %>
               <%= render 'shared/navbar'  %>
         <% elsif (current_user.role == "admin") %>
-              <%=render 'shared/header' %>
-              <%=  render 'shared/admin_navbar'%>
+              <%= render 'shared/header' %>
+              <%= render 'shared/admin_navbar'%>
         <% elsif (current_user.role == "lawyer") %>
               <%= render 'shared/navbar'  %>
-              <%= render 'shared/navbar_onboard' %>
+              <%= render 'shared/nav_bar_onboard' %>
         <% elsif (current_user.role == "support")%>
               <%= render 'shared/navbar' %>
-              <%=  render 'shared/supportstaff_navbar' %>
+              <%= render 'shared/supportstaff_navbar' %>
         <% end %>
       <% end %>
     
