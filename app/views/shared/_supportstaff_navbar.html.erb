@@ -28,11 +28,15 @@
 
     <li>
       <%= link_to faq_path do %>
-        <i class="fas fa-question fa-3x"></i>&nbsp;&nbsp;&nbsp;FAQs
+        <i class="fas fa-question fa-3x"></i>FAQs
       <% end %>
       </li>
 
-    <li><a href="ticket#index"><i class="fas fa-hands-helping fa-3x"></i>Helpdesk Ticket</a></li>
+    <li>
+      <%= link_to new_ticket_path do %>
+        <i class="fas fa-hands-helping fa-3x"></i>Helpdesk Ticket
+      <% end %>
+    </li>
   </ul>
 </div>
   <!--Navbar End-->
